@@ -8,7 +8,7 @@ Gazebo is a full-fledged simulation environment that is compatible with PX4. In 
 
 ## Can I run Gazebo?
 
-To run Gazebo you will need an Ubuntu Linux (20.04) environment. You can run the Ubuntu as a native OS or as a virtual machine. Recommended specs for running the Gazebo simulation environment are as follows:
+To run Gazebo you will need an Ubuntu Linux (20.04) environment. Recommended specs for running the Gazebo simulation environment are as follows:
 
 | Component       | Amount                                   |
 | --------------- | ---------------------------------------- |
