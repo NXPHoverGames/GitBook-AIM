@@ -57,7 +57,7 @@ The simulation stack will open a new window that shows the debug output of the s
 ![](.gitbook/assets/qt.png)
 
 {% hint style="info" %}
-If you do not see the simulated Pixy camera output, use the drop-down at the top left of the window and select /debugImage0.
+If you do not see the simulated Pixy camera output, use the drop down at the top left of the window and select /debugImage0.
 {% endhint %}
 
 The simulated Pixy camera detects the black lines in the environment and fits lines to them. Then, it will use those lines to create a simulated Pixy camera vector output in the Pixy camera frame space as seen below:
