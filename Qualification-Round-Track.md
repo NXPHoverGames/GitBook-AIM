@@ -1,3 +1,7 @@
+---
+description: Track fro Qualification Round
+---
+
 # QUALIFICATION ROUND TRACK
 
 # Download Track
@@ -20,4 +24,3 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 		
 			},
 ```
-a
