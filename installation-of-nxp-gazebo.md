@@ -2,7 +2,7 @@
 description: Guide to install setup for NXP AIM CUP CHALLENGE.
 ---
 
-# Installation of Ubuntu
+# Installation of NXP AIM Software Stack
 
 ## Notice
 
