@@ -12,5 +12,5 @@ When you run this command, you should see that the Gazebo simulation is booted u
 
 ![](<.gitbook/assets/Screenshot from 2021-04-06 17-30-44.png>)
 
-After about a 5 second delay, the car will start running the `aim_line_follow` ROS node automatically. It is your job as AIM participants to enhance the `aim_line_follow` node!
+After about a 5 seconds delay, the car will start running the `aim_line_follow` ROS node automatically. It is your job as AIM participants to enhance the `aim_line_follow` node!
 
