@@ -15,3 +15,5 @@ To run Gazebo you will need an Ubuntu Linux (20.04) environment. Recommended spe
 | Processor       | Any modern quad-core processor or better |
 | RAM             | 8GB of RAM or better                     |
 | Hard Disk Space | \~20GB of space (SSD recommended)        |
+
+{% hint style="warning" %} It is advised to setup Ubuntu Linux via dual boot or as standalone OS in your system. Don't use virtual VMs for this competition {% endhint %}
