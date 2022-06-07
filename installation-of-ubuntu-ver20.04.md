@@ -25,7 +25,7 @@ System requirements (recommended):
   4. DVD drive or USB port
 
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 It is advised to take a full system backup before proceeding with the installation as faulty installation can lead to loss/corruption of data!
 {% endhint %}
 
