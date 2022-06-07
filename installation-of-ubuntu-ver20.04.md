@@ -29,4 +29,6 @@ It is advised to take a full system backup before proceeding with the installati
 
 All steps to install Ubuntu 20.04 can be found in PPT attached below. Refer to this guide to perform your desired type of installation: 
 
-![](<.gitbook/assets/NXP AIM installation guide.pptx>)
+{% file src=".gitbook/assets/NXP AIM installation guide.pptx" %}
+foxy\_install\_aim.sh
+{% endfile %}
