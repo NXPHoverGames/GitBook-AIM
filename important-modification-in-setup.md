@@ -28,7 +28,7 @@ You need to delete the following lines of code that are selected below image:
 
 ![](.gitbook/assets/aim.png)
 
-After deletion, write the lines 24- 32 as shown in the image below:
+After deletion, write the lines 24-32 as shown in the image below:
 
 ![](.gitbook/assets/after\_aim.png)
 
