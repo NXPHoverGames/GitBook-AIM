@@ -15,9 +15,13 @@ It is advised to have a steady internet collection and system to be plugged onto
 ![](<.gitbook/assets/ubuntu_logo.jpg>)
 
 System requirements (recommended):
-  1.2 GHz dual-core processor
-  2.4GB memory
+  
+  1. GHz dual-core processor
+  
+  2. 4GB memory
+  
   3. 25GB available disk space for storage (less if installing the minimal version)
+  
   4. DVD drive or USB port
 
 
