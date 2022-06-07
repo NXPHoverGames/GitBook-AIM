@@ -4,23 +4,27 @@ description: Track for Qualification Round.
 
 # QUALIFICATION ROUND TRACK
 
-## Download Qualification Track
+## Notice
 
-Download the following zip file containing the qualification round track and extract it in _**\~/ros2ws/src/ **_ .
+{% hint style="warning" %}
+It is advised to have a steady internet collection and system to be plugged onto power as installation and setting up the setup will take a long time to finish. System requirements (recommended): 2 GHz dual core processor 4GB memory, 25GB available disk space USB Port.
+{% endhint %}
 
-Attach files
+## Prerequisites
 
-To add qualification round track into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
+![](<.gitbook/assets/ubuntu_logo.jpg>)
 
-To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
+System requirements (recommended):
+  
+  1. GHz dual-core processor
+  
+  2. 4GB memory
+  
+  3. 25GB available disk space for storage (less if installing the minimal version)
+  
+  4. DVD drive or USB port
 
-```
-"embedded_models": {
-				"embed_model_0": {
-					"model": "nxp_raceway_2",
-					"name": "nxp_raceway_overpass_0",
-					"pose": "-2 -0.35 -0.04 0 0 0"
-				}
-		
-			},
-```
+
+{% hint style="danger" %}
+It is advised to take a full system backup before proceeding with the installation as faulty installation can lead to loss/corruption of data!
+{% endhint %}
