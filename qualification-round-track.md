@@ -1,5 +1,5 @@
 ---
-description: Track fro Qualification Round
+description: Track for Qualification Round
 ---
 
 # QUALIFICATION ROUND TRACK
