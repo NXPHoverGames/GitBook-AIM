@@ -67,4 +67,4 @@ If one vector is found, the algorithm finds the gradient of the vector and store
 
 ### Case: 2 vectors found
 
-If two vectors are found, then the example algorithm will find the offset in the x-direction of the average of the two head points of each vector. This will give us a steering value that will steer the cup car in the correct direction. This value is stored in `steer`. The speed value will be calculated and is stored in `speed`.
+If two vectors are found, then the example algorithm will find the offset in the x direction of the average of the two head points of each vector. This will give us a steering value that will steer the cup car in the correct direction. This value is stored in `steer`. The speed value will be calculated and is stored in `speed`.
