@@ -6,7 +6,7 @@ This page is designed to help contestants understand the inner-workings of the N
 
 ## Outline of the stack
 
-The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP AIM India contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/ros2ws/` folder and is set up as follows:
+The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully as NXP AIM India contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/ros2ws/` folder and is set up as follows:
 
 ![](<.gitbook/assets/image (8).png>)
 
