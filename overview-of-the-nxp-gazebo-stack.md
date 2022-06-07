@@ -38,7 +38,7 @@ The participants are required to use aim\_line\_follow folder to write their log
 
 ![](<.gitbook/assets/Screenshot from 2021-04-06 16-40-01.png>)
 
-Inside the aim\_line\_follow sub-folder, a sample code for the self-driving car has been provided inside _aim\_line\_follow.py_  file. Participants are required to edit this file in order to complete the challenge. Participants are allowed to use any resource and practices to achieve their desired results
+Inside the aim\_line\_follow sub-folder, a sample code for the self driving car has been provided inside _aim\_line\_follow.py_  file. Participants are required to edit this file in order to complete the challenge. Participants are allowed to use any resource and practices to achieve their desired results
 
 ![](<.gitbook/assets/Screenshot from 2021-04-06 16-38-31.png>)
 
