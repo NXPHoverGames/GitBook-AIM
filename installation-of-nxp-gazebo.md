@@ -46,7 +46,7 @@ Now, log into your GitHub account and paste your SSH key. The SSH key field is l
 
 ![](<.gitbook/assets/image (1).png>)
 
-Once you've done this, you're ready to begin the installation.
+Once you've done this, you are ready to begin the installation.
 
 ## Installing ROS2
 
