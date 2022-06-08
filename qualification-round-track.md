@@ -17,7 +17,7 @@ You might get pop-up dialogue for replacing start_point model folder. Replace it
 {% endhint %}
 
 Your directory will look like this after downloading the new track: 
-![](<.gitbook/assets/qulaification round track.png>)
+![](<.gitbook/assets/model_dir.png>)
 
 To add qualification round track into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
 
@@ -26,15 +26,24 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 ```
 "embedded_models": {
 				"embed_model_0": {
-					"model": "nxp_raceway_2",
-					"name": "nxp_raceway_overpass_0",
-					"pose": "-2 -0.35 -0.04 0 0 0"
-				}
-		
+					"model": "Raceway_1",
+					"name": "Raceway_1_track",
+					"pose": "-3.698240 -1.411953 0.03000 0 0 0"
+				},
+				"embed_model_1": {
+					"model": "start_point",
+					"name": "start_point_1",
+					"pose": "0.1 0.551953 0.03000 0 0 0"
+				},
+				"embed_model_2": {
+					"model": "start_point",
+					"name": "start_point_2",
+					"pose": "0.1 -0.651953 0.03000 0 0 0"
+				}			
 			},
 ```
-[image]
+![](<.gitbook/assets/qulaification round track.png>)
 
  After launching gazebo via command line, you will see the following world in simulation:
  
- [image]
+![](<.gitbook/assets/qulaification round track.png>)
