@@ -19,6 +19,9 @@ You might get pop-up dialogue for replacing start_point model folder. Replace it
 Your directory will look like this after downloading the new track: 
 ![](<.gitbook/assets/model_dir.png>)
 
+
+## Spawn Track in Gazebo
+
 To add qualification round track into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
 
 To add new track navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
@@ -42,8 +45,10 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 				}			
 			},
 ```
-![](<.gitbook/assets/qulaification round track.png>)
-
- After launching gazebo via command line, you will see the following world in simulation:
  
 ![](<.gitbook/assets/code_add.png>)
+
+
+ After launching gazebo via command line, you will see the following world in simulation:
+
+![](<.gitbook/assets/qulaification round track.png>)
