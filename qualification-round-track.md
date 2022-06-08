@@ -46,4 +46,4 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 
  After launching gazebo via command line, you will see the following world in simulation:
  
-![](<.gitbook/assets/qulaification round track.png>)
+![](<.gitbook/assets/code_add.png>)
