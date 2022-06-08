@@ -3,7 +3,7 @@
 The participants are required to do the following code changes mentioned below.
 
 {% hint style="info" %}
-These changes will help to improve your algorithm working and now there will be less variation in simulation outputs
+These changes will help to improve your algorithm working and will show very less variation in simulation outputs
 {% endhint %}
 
 ### Change one:&#x20;
