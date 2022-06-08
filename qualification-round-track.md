@@ -17,6 +17,7 @@ You might get pop-up dialogue for replacing start_point model folder. Replace it
 {% endhint %}
 
 Your directory will look like this after downloading the new track: 
+
 ![](<.gitbook/assets/model_dir.png>)
 
 
