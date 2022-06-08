@@ -10,9 +10,12 @@ Download the following zip file containing the qualification round track and ext
 
 Attach files
 
+Your directory will look like this after downloading the new track: 
+[image]
+
 To add qualification round track into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
 
-To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
+To add new track navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
 
 ```
 "embedded_models": {
@@ -24,3 +27,8 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 		
 			},
 ```
+[image]
+
+ After launching gazebo via command line, you will see the following world in simulation:
+ 
+ [image]
