@@ -6,9 +6,14 @@ description: Track for Qualification Round.
 
 ## Download Qualification Track
 
+{% hint style="warning" %}
+The qualification track was updatd on 22nd June,2022. Please download the new track available below.
+{% endhint %}
+
+
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/ **_ .
 
-{% file src=".gitbook/assets/qualification_round_track_model.zip" %}
+{% file src=".gitbook/assets/Raceway_1.zip" %}
 Qualification Round Track Model
 {% endfile %}
 
@@ -52,4 +57,4 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 
  After launching gazebo via command line, you will see the following world in simulation:
 
-![](<.gitbook/assets/qulaification round track.png>)
+![](<.gitbook/assets/track_with_update2.png>)
