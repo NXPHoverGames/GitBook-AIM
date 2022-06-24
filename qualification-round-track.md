@@ -6,7 +6,7 @@ description: Track for Qualification Round.
 
 ## Download Qualification Track
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 The qualification track was updatd on 22nd June,2022. Please download the new track available below.
 {% endhint %}
 
