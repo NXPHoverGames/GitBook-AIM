@@ -11,7 +11,7 @@ The qualification track was updatd on 22nd June,2022. Please download the new tr
 {% endhint %}
 
 
-Download the following zip file containing the qualification round track and extract it in _** \~ros2ws/nxp_gazebo/models/ **_ .
+Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
 
 {% file src=".gitbook/assets/Raceway_1.zip" %}
 Qualification Round Track Model
