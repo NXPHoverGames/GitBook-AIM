@@ -7,9 +7,12 @@ description: Track for Qualification Round.
 ## Download Qualification Track
 
 {% hint style="danger" %}
-The qualification track was updatd on 22nd June,2022. Please download the new track available below.
+The qualification track was updatd on 1st July,2022. Please download the new track available below.
 {% endhint %}
 
+{% hint style="warning" %}
+This is final track for qualification round. No more modifications will be taking place. (Finalized: 1st June,2022)
+{% endhint %}
 
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
 
