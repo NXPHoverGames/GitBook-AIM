@@ -10,3 +10,4 @@
 * [Important Modification in Setup](important-modification-in-setup.md)
 * [Qualification Round Track](qualification-round-track.md)
 * [Adding Obstacles to Simulation World](Adding-obstacles.md)
+* [Important Updates Post Qualification Round](Important-Updates-Post-Qualification-Round.md)
