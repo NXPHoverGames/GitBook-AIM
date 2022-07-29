@@ -9,3 +9,4 @@
 * [Updating Car Physics](updating-car-physics.md)
 * [Important Modification in Setup](important-modification-in-setup.md)
 * [Qualification Round Track](qualification-round-track.md)
+* [Adding Obstacles to Simulation World](Adding-obstacles.md)
