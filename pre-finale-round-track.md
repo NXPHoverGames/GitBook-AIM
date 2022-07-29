@@ -2,7 +2,7 @@
 description: Track for Qualification Round.
 ---
 
-# Pre-Finale ROUND TRACK
+# Pre-Finale Round Track
 
 ## Download Qualification Track
 
@@ -26,22 +26,30 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 ```
 "embedded_models": {
 				"embed_model_0": {
-					"model": "Raceway_1",
+					"model": "Raceway2",
 					"name": "Raceway_1_track",
-					"pose": "-3.698240 -1.411953 0.03000 0 0 0"
+					"pose": "0 0 0.04000 0 0 0"
 				},
 				"embed_model_1": {
 					"model": "start_point",
 					"name": "start_point_1",
-					"pose": "0.1 0.551953 0.03000 0 0 0"
+					"pose": "0.533241 0 0.067473 0 0 0"
 				},
 				"embed_model_2": {
 					"model": "start_point",
 					"name": "start_point_2",
-					"pose": "0.1 -0.651953 0.03000 0 0 0"
+					"pose": "-0.533241 0 0.067473 0 0 0"
 				}			
 			},
 ```
+ 
+Next, you have to re-adjust the car position in Gazebo simulation. For this, navigate to the "spawn\_pose" for "model\_params\_0" sub-tag in the "models" tag. Then  copy the following code:
+
+```
+"spawn_pose": [0,0,0.1,0,0,-1.5],
+```
+
+After doing the above changes, the _**gen\_params.json**_ file would appear like this:
  
 ![](<.gitbook/assets/change_in_config_file.png>)
 
