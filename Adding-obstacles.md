@@ -92,7 +92,7 @@ To add moving obstacles into the simulation navigate to _**gen.world.jinja**_ lo
 Please make sure to provide the full path of the plugin to be used as many times gazebo have problems in locating custom plugin files
 {% endhint %}
 
-### Make traffic light change colour during simulation
+## Make traffic light change colour during simulation
 
 {% file src=".gitbook/assets/spawn_light.zip" %}
 Color change python program
