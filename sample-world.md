@@ -257,7 +257,20 @@ In Pre-finale and Grand Finale round, there will be both moving and static obsta
 
 ### Make traffic light change colour during simulation
 
-Download  _**spawn\_light.py**_  in the root folder/dir
+In  _**spawn\_light.py**_  file, replace the content of the file with following lines of code:
+```import os
+from time import sleep
+
+spawn_green="gz model --spawn-file=/home/manish/ros2ws/nxp_gazebo/models/traffic_light_green/model.sdf --model-name=lightGreen -x 1.367847 -y 7.259359 -z 0.824783 -R 3.138707 -P -0.000142 -Y -1.640874"
+del_green="gz model -m lightGreen -d"
+
+while(True):	
+	sleep(10)
+	os.system(spawn_green)
+	sleep(10)
+	os.system(del_green)	
+
+```
 
 While simulation is running, open a new terminal and run the following command:
 
