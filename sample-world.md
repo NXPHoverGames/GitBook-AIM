@@ -1,22 +1,4 @@
-# New Tracks
-
-## New traffic sign models
-
-These are updated traffic signs, traffic light, zebra line and finish line. Participants are required to replace the previous model folders with new folders in given zip file.
-
-{% file src=".gitbook/assets/new_signs.zip" %}
-New signs
-{% endfile %}
-
-## New Human Obstacles
-
-{% file src=".gitbook/assets/person_2.zip" %}
-Human Obstacle 1
-{% endfile %}
-
-{% file src=".gitbook/assets/person_1.zip" %}
-Human Obstacle 2
-{% endfile %}
+# Sample World For Pre-Finale Round
 
 ## Sample Track
 
