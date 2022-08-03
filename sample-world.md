@@ -241,11 +241,11 @@ The gazebo world will look like the image below:
 
 ![SAMPLE TRACK Img_1](<.gitbook/assets/sample_track1.png>)
 
-![SAMPLE TRACK Img_2](<.gitbook/assets/sample_track2.png>)
+![SAMPLE TRACK Img_2](<.gitbook/assets/sample_tack-2.png>)
 
-![SAMPLE TRACK Img_3](<.gitbook/assets/sample_track3.png>)
+![SAMPLE TRACK Img_3](<.gitbook/assets/sample_track_3.png>)
 
-![SAMPLE TRACK Img_4](<.gitbook/assets/sample_track4.png>)
+![SAMPLE TRACK Img_4](<.gitbook/assets/sample_track_4.png>)
 
 {% hint style="warning" %}
 This is just a _**sample world for the Pre-Finale Round**_. 
