@@ -251,7 +251,7 @@ In Pre-finale and Grand Finale round, there will be both moving and static obsta
 
 ### Make traffic light change colour during simulation
 
-Download  _**spawn\_light.py**_ [heading]((https://github.com/NXPHoverGames/GitBook-AIM/blob/main/Adding-obstacles.md#make-traffic-light-change-colour-during-simulation))   in the root folder/dir
+Download  _**spawn\_light.py**_  in the root folder/dir
 
 While simulation is running, open a new terminal and run the following command:
 
