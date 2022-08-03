@@ -242,8 +242,12 @@ The gazebo world will look like the image below:
 ![SAMPLE TRACK](<.gitbook/assets/sample track.png>)
 
 {% hint style="warning" %}
-This is just a sample track. In grand finale, there will be both moving and static obstacles.
+This is just a _**sample world for the Pre-Finale Round**_. 
 {% endhint %}
+
+
+{% hint style="info" %}
+In Pre-finale and Grand Finale round, there will be both moving and static obstacles. More obstacles will be added in these rounds. Positions  and direction of traffic signs (& lights) will be changed.{% endhint %}
 
 ### Make traffic light change colour during simulation
 
