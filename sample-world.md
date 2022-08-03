@@ -235,11 +235,17 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 			},
 ```
 
-![code snippet](.gitbook/assets/code1.png)
+![code snippet](.gitbook/assets/gen_params_sample_track.png)
 
 The gazebo world will look like the image below:
 
-![SAMPLE TRACK](<.gitbook/assets/sample track.png>)
+![SAMPLE TRACK Img_1](<.gitbook/assets/sample_track1.png>)
+
+![SAMPLE TRACK Img_2](<.gitbook/assets/sample_track2.png>)
+
+![SAMPLE TRACK Img_3](<.gitbook/assets/sample_track3.png>)
+
+![SAMPLE TRACK Img_4](<.gitbook/assets/sample_track4.png>)
 
 {% hint style="warning" %}
 This is just a _**sample world for the Pre-Finale Round**_. 
