@@ -1,146 +1,237 @@
 # Sample World For Pre-Finale Round
 
-## Sample Track
+## Sample World
 
 To add obstacles into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the **gen\_params.json **_****_ file.
 
 To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
 
-```
-"embedded_models": {
+```"embedded_models": {
 				"embed_model_0": {
-					"model": "nxp_raceway_2",
-					"name": "nxp_raceway_overpass_0",
-					"pose": "-2 -0.35 -0.04 0 0 0"
+					"model": "Raceway2",
+					"name": "Raceway_1_track",
+					"pose": "0 0 0.04000 0 0 0"
 				},
 				"embed_model_1": {
 					"model": "start_point",
-					"name": "start_point_0",
-					"pose": "0.2 -0.412042 0.09 0 0 0"
+					"name": "start_point_1",
+					"pose": "0.533241 0 0.067473 0 0 0"
 				},
 				"embed_model_2": {
 					"model": "start_point",
-					"name": "start_point_1",
-					"pose": "0.2 0.624883 0.09 0 0 0"
+					"name": "start_point_2",
+					"pose": "-0.533241 0 0.067473 0 0 0"
 				},
 				"embed_model_3": {
-					"model": "go_straight_sign",
-					"name": "sign_1",
-					"pose": "5.393145 4.020703 0.115537 0 0 0"
+					"model": "turn_right_sign",
+					"name": "turn_left_1",
+					"pose": "6.961647 6.999404 0.141243 0 0 0.224956"
 				},
 				"embed_model_4": {
-					"model": "go_straight_sign",
-					"name": "sign_2",
-					"pose": "5.326705 3.146068 0.115537 0 0 -1.639132"
-				},
-				"embed_model_5": {
-					"model": "stop_traffic_sign",
-					"name": "stop",
-					"pose": "-0.171723 0.467679 0.123072 0 0 -2.549039"
-				},
-				"embed_model_6": {
-					"model": "oak_tree_mini",
-					"name": "tree",
-					"pose": "7.190042 3.645584 0 0 0 0"
-				},
-				
-				"embed_model_7": {
-					"model": "barricade",
-					"name": "barricade_1",
-					"pose": "3.519024 0.370385 0.031807 0 0 1.539841"
+					"model": "turn_right_sign",
+					"name": "turn_left_2",
+					"pose": "7.157476 7.866743 0.139078 0 0 -0.480452"
 				},
 				"embed_model_8": {
-					"model": "barricade",
-					"name": "barricade_2",
-					"pose": "-0.658839 1.234693 0.031807 0 0 1.539841"
+					"model": "turn_left_sign",
+					"name": "turn_left_3",
+					"pose": "-0.001217 2.517102 0.141243 0 0 1.561054"
 				},
 				"embed_model_9": {
-					"model": "barricade",
-					"name": "barricade_3",
-					"pose": "4.026354 -0.119128 0.031807 0 0 1.539841"
+					"model": "turn_left_sign",
+					"name": "turn_left_4",
+					"pose": "-0.450366 3.231226 0.141243 0 0 0.563165"
+				},
+				"embed_model_5": {
+					"model": "turn_left_sign",
+					"name": "turn_right_0",
+					"pose": "6.101090 7.838730 0.141243 0 0 -1.401961"
+				},				
+				"embed_model_6": {
+					"model": "turn_left_sign",
+					"name": "turn_right_1",
+					"pose": "6.039118 7.043794 0.141243 0 0 -1.401962"
+				},
+				"embed_model_7": {
+					"model": "turn_left_sign",
+					"name": "turn_right_2",
+					"pose": "6.850454 6.458070 0.317739 0 0 -2.318629"
 				},
 				"embed_model_10": {
-					"model": "finish_line",
-					"name": "finish",
-					"pose": "-0.397272 0.101526 0.005 0 0 0"
+					"model": "stop_traffic_sign",
+					"name": "stop_traffic_sign",
+					"pose": "1.394454 1.362193 0.153013 0 0 1.582700"
 				},
 				"embed_model_11": {
-					"model": "fire_hydrant2",
-					"name": "hydrant",
-					"pose": "6.400470 0.997986 -0.010970 0 0 0"
+					"model": "finish_line",
+					"name": "finish_line",
+					"pose": "1.264966 1.625857 0.014189 0 0 1.546246"
 				},
-				
 				"embed_model_12": {
-					"model": "traffic_light_red",
-					"name": "traffic_light",
-					"pose": "0.607803 2.528717 0.224218 0 0 1.612265"
+					"model": "turn_right_sign",
+					"name": "turn_right_01",
+					"pose": "6.036990 -1.957740 0.141243 0 0 -3.010565"
 				},
 				"embed_model_13": {
-					"model": "start_sign",
-					"name": "start",
-					"pose": "0.581745 0.585257 0.150951 0 0 -2.196015"
+					"model": "turn_right_sign",
+					"name": "turn_right_02",
+					"pose": "5.892650 -1.129460 0.141243 0 0 -3.010571"
 				},
 				"embed_model_14": {
-					"model": "zebra_line",
-					"name": "crossing",
-					"pose": "0.791940 2.817986 0.005 0 0 1.583922"
+					"model": "turn_right_sign",
+					"name": "turn_right_03",
+					"pose": "7.008253 -1.155979 0.141243 0 0 -0.034782"
 				},
 				"embed_model_15": {
-					"model": "Construction_Cone_mini",
-					"name": "cone_1",
-					"pose": "6.516230 4.990960 0 0 0 0"
+					"model": "turn_right_sign",
+					"name": "turn_right_04",
+					"pose": "6.967960 -1.997830 0.141243 0 0 -0.034782"
 				},
 				"embed_model_16": {
-					"model": "Construction_Cone_mini",
-					"name": "cone_2",
-					"pose": "6.162980 4.990960 0 0 0 0"
+					"model": "car",
+					"name": "car_1",
+					"pose": "1.520010 -2.371180 0 0 0 0"
 				},
 				"embed_model_17": {
-					"model": "Construction_Cone_mini",
-					"name": "cone_3",
-					"pose": "5.761880 4.990960 0 0 0 0"
+					"model": "car_blue",
+					"name": "car_2",
+					"pose": "3.778930 -0.209861 0 0 0 0"
 				},
 				"embed_model_18": {
-					"model": "Construction_Cone_mini",
-					"name": "cone_4",
-					"pose": "2.809120 6.380610 0 0 0 0"
+					"model": "dumpster2",
+					"name": "dumpster_1",
+					"pose": "6.209020 3.039650 0 0 0 0"
 				},
 				"embed_model_19": {
-					"model": "Construction_Cone_mini",
-					"name": "cone_5",
-					"pose": "2.380310 5.919590 0 0 0 0"
+					"model": "dumpster2",
+					"name": "dumpster_2",
+					"pose": "6.787890 3.078500 0 0 0 0"
 				},
 				"embed_model_20": {
 					"model": "Construction_Cone_mini",
-					"name": "cone_6",
-					"pose": "1.922995 6.422790 0 0 0 0"
+					"name": "Construction_Cone_1",
+					"pose": "5.196230 7.230290 0 0 0 0"
 				},
 				"embed_model_21": {
 					"model": "Construction_Cone_mini",
-					"name": "cone_7",
-					"pose": "1.423960 6.035790 0 0 0 0"
+					"name": "Construction_Cone_2",
+					"pose": "4.985940 7.626090 0 0 0 0"
 				},
 				"embed_model_22": {
-					"model": "car_blue",
-					"name": "car",
-					"pose": "4.023540 3.360870 0 0 0 0"
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_3",
+					"pose": "4.866470 7.247080 0 0 0 0"
 				},
 				"embed_model_23": {
-					"model": "ambulance_mini",
-					"name": "ambulance",
-					"pose": "0.233090 6.622330 0 0 0 0"
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_4",
+					"pose": "4.835070 7.643900 0 0 0 0"
 				},
 				"embed_model_24": {
-					"model": "person_1",
-					"name": "human_1",
-					"pose": "4.558640 2.158550 0 0 0 0"
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_5",
+					"pose": "4.604640 7.258980 0 0 0 0"
 				},
 				"embed_model_25": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_6",
+					"pose": "4.439520 7.363690 0 0 0 0"
+				},
+				"embed_model_26": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_7",
+					"pose": "4.256437 7.416032 0 0 0 0"
+				},
+				"embed_model_27": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_8",
+					"pose": "4.100130 7.720550 0 0 0 0"
+				},
+				"embed_model_28": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_9",
+					"pose": "3.975580 7.679610 0 0 0 0"
+				},
+				"embed_model_29": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_10",
+					"pose": "3.976610 7.328560 0 0 0 0"
+				},
+				"embed_model_30": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_11",
+					"pose": "3.767880 7.589030 0 0 0 0"
+				},
+				"embed_model_31": {
+					"model": "Construction_Cone_mini",
+					"name": "Construction_Cone_11",
+					"pose": "3.637660 7.525750 0 0 0 0"
+				},
+				"embed_model_32": {
+					"model": "barricade",
+					"name": "barricade_1",
+					"pose": "0.326338 5.906060 0.030935 0 0 0"
+				},
+				"embed_model_33": {
+					"model": "barricade",
+					"name": "barricade_2",
+					"pose": "-0.245990 5.526630 0.030935 0 0 0"
+				},
+				"embed_model_34": {
+					"model": "barricade",
+					"name": "barricade_3",
+					"pose": "0.297154 4.981470 0.030935 0 0 0"
+				},
+				"embed_model_35": {
+					"model": "barricade",
+					"name": "barricade_4",
+					"pose": "-0.268218 4.486810 0.030935 0 0 0"
+				},
+				"embed_model_36": {
+					"model": "barricade",
+					"name": "barricade_5",
+					"pose": "1.756294 8.550660 0.543527 0 0 0"
+				},
+				"embed_model_37": {
+					"model": "person_2",
+					"name": "person_1",
+					"pose": "6.255060 0.113153 0 0 0 0"
+				},
+				"embed_model_38": {
 					"model": "person_1",
-					"name": "human_2",
-					"pose": "-0.661461 4.982290 0 0 0 0"
+					"name": "person_2",
+					"pose": "3.677107 4.186801 0.504650 0 0 0"
+				},
+				"embed_model_39": {
+					"model": "postbox2",
+					"name": "postbox_1",
+					"pose": "6.805440 -3.120050 0 0 0 0"
+				},
+				"embed_model_40": {
+					"model": "oak_tree_mini",
+					"name": "tree_1",
+					"pose": "9.417270 -3.485010 0 0 0 0"
+				},
+				"embed_model_41": {
+					"model": "oak_tree_mini",
+					"name": "tree_2",
+					"pose": "9.611970 4.774720 0 0 0 0"
+				},
+				"embed_model_42": {
+					"model": "oak_tree_mini",
+					"name": "tree_3",
+					"pose": "6.598160 9.718095 0.494940 0 0 0"
+				},
+				"embed_model_43": {
+					"model": "traffic_light_red",
+					"name": "traffic_light",
+					"pose": "1.545887 7.279552 0.718760 0 0 -1.631644"
+				},
+				"embed_model_44": {
+					"model": "fire_hydrant2",
+					"name": "fire_hydrant_1",
+					"pose": "8.499910 6.678930 0 0 0 0"
 				}
-			
 			},
 ```
 
