@@ -12,4 +12,4 @@
 * [Important Updates Post Qualification Round](Important-Updates-Post-Qualification-Round.md)
 * [Pre-Finale Round Track](pre-finale-round-track.md)
 * [Adding Obstacles to Simulation World](Adding-obstacles.md)
-* [Sample Simulation World]((sample-world.md)
+* [Sample Simulation World](sample-world.md)
