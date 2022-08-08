@@ -164,7 +164,7 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 				},
 				"embed_model_31": {
 					"model": "Construction_Cone_mini",
-					"name": "Construction_Cone_11",
+					"name": "Construction_Cone_12",
 					"pose": "3.637660 7.525750 0 0 0 0"
 				},
 				"embed_model_32": {
