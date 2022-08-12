@@ -60,5 +60,5 @@ After doing the above changes, the _**gen\_params.json**_ file would appear like
 
  After launching gazebo via command line, you will see the following world in simulation:
 
-![](<.gitbook/assets/pre_track_2.png>)
-![](<.gitbook/assets/track_pre_1.png>)
+![](<.gitbook/assets/prefinale_track_2.png>)
+![](<.gitbook/assets/prefinale_track_1.png>)
