@@ -259,7 +259,9 @@ This is just a _**sample world for the Pre-Finale Round**_.
 In Pre-finale and Grand Finale round, there will be both moving and static obstacles. More obstacles will be added in these rounds. Positions  and direction of traffic signs (& lights) will be changed.{% endhint %}
 
 ### Make traffic light change colour during simulation
-
+{% hint style="info" %}
+The sample world was updatd on 12th August,2022. Please use the updated traffic light positions given below
+{% endhint %}
 In  _**spawn\_light.py**_  file, replace the content of the file with following lines of code:
 ```import os
 from time import sleep
