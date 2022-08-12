@@ -4,6 +4,10 @@ description: Track for Qualification Round.
 
 # Pre-Finale Round Track
 
+{% hint style="danger" %}
+The qualification track was updatd on 12th August,2022. Please download the new track available below.
+{% endhint %}
+
 ## Download Qualification Track
 
 {% hint style="danger" %}
