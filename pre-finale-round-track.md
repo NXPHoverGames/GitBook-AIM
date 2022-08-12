@@ -5,7 +5,7 @@ description: Track for Qualification Round.
 # Pre-Finale Round Track
 
 {% hint style="danger" %}
-The qualification track was updatd on 12th August,2022. Please download the new track available below. Refer to images at the end of this page for desired output in Gazebo.
+The qualification track was updatd on 12th August,2022. Please download the new track available below. 
 {% endhint %}
 
 ## Download Qualification Track
