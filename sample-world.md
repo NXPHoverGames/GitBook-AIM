@@ -190,7 +190,7 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 				"embed_model_36": {
 					"model": "barricade",
 					"name": "barricade_5",
-					"pose": "1.756294 8.550660 0.543527 0 0 0"
+					"pose": "1.716760 8.794882 0.479858 0 0 0"
 				},
 				"embed_model_37": {
 					"model": "person_2",
@@ -200,7 +200,7 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 				"embed_model_38": {
 					"model": "person_1",
 					"name": "person_2",
-					"pose": "3.677107 4.186801 0.504650 0 0 0"
+					"pose": "3.677107 4.207261 0.468489 0 0 0"
 				},
 				"embed_model_39": {
 					"model": "postbox2",
@@ -220,12 +220,12 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 				"embed_model_42": {
 					"model": "oak_tree_mini",
 					"name": "tree_3",
-					"pose": "6.598160 9.718095 0.494940 0 0 0"
+					"pose": "6.616697 9.718095 0.441569 0 0 0"
 				},
 				"embed_model_43": {
 					"model": "traffic_light_red",
 					"name": "traffic_light",
-					"pose": "1.545887 7.279552 0.718760 0 0 -1.631644"
+					"pose": "1.322568 7.290203 0.680126 0 0 1.528681"
 				},
 				"embed_model_44": {
 					"model": "fire_hydrant2",
