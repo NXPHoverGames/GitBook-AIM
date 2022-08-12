@@ -264,7 +264,7 @@ In  _**spawn\_light.py**_  file, replace the content of the file with following 
 ```import os
 from time import sleep
 
-spawn_green="gz model --spawn-file=/home/manish/ros2ws/nxp_gazebo/models/traffic_light_green/model.sdf --model-name=lightGreen -x 1.367847 -y 7.259359 -z 0.824783 -R 3.138707 -P -0.000142 -Y -1.640874"
+spawn_green="gz model --spawn-file=/home/manish/ros2ws/nxp_gazebo/models/traffic_light_green/model.sdf --model-name=lightGreen -x 1.496568 -y 7.320472 -z 0.778152 -R -3.121948 -P -0.006105 -Y 1.503726"
 del_green="gz model -m lightGreen -d"
 
 while(True):	
