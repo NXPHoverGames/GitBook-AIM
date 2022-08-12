@@ -1,6 +1,9 @@
 # Sample World For Pre-Finale Round
 
 ## Sample World
+{% hint style="danger" %}
+The sample world was updatd on 12th August,2022. Please use the updated obstacle positions given below.
+{% endhint %}
 
 To add obstacles into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
 
