@@ -388,26 +388,26 @@ Below this line instert following lines of code:
       <uri>model://car_blue</uri>
       <name>moving_car</name>
       <pose>-1.562250 3.107690 0 0 0 0</pose>
-      <plugin name="push_animate" filename="/home/manish/ros2ws/nxp_gazebo/custom_pluggins/car_animation/build/libanimated_car.so"/>
+      <plugin name="push_animate" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/car_animation/build/libanimated_car.so"/>
     </include>
     
     <include>
       <uri>model://person_1</uri>
       <name>moving_person_1</name>
       <pose>-2.071470 0.387716 0.018239 0 0 1.612632</pose>
-      <plugin name="push_animate2" filename="/home/manish/ros2ws/nxp_gazebo/custom_pluggins/person_animation_x_dir/build/libanimated_person_xDir.so"/>
+      <plugin name="push_animate2" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/person_animation_x_dir/build/libanimated_person_xDir.so"/>
     </include>
     
     <include>
       <uri>model://person_1</uri>
       <pose>2.603500 0.543162 0.018239 0 0 0</pose>
       <name>moving_person_2</name>
-      <plugin name="push_animate3" filename="/home/manish/ros2ws/nxp_gazebo/custom_pluggins/person_animation_y_dir/build/libanimated_person_yDir.so"/>
+      <plugin name="push_animate3" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/person_animation_y_dir/build/libanimated_person_yDir.so"/>
     </include>
 ```
 {% hint style="warning" %}
 Please make sure to provide the full path of the plugin to be used as many times gazebo have problems in locating custom plugin files. 
-Also replace the /home/manish/ros2ws with the path in your own system.
+Also replace the /home/aditya/ros2ws with the path in your own system.
 {% endhint %}
 
 ![code snippet](.gitbook/assets/world_file.png)
@@ -418,7 +418,7 @@ In  _**spawn\_light.py**_  file, replace the content of the file with following 
 ```import os
 from time import sleep
 
-spawn_green="gz model --spawn-file=/home/manish/ros2ws/nxp_gazebo/models/traffic_light_green/model.sdf --model-name=lightGreen -x 1.496568 -y 7.320472 -z 0.778152 -R -3.121948 -P -0.006105 -Y 1.503726"
+spawn_green="gz model --spawn-file=/home/aditya/ros2ws/nxp_gazebo/models/traffic_light_green/model.sdf --model-name=lightGreen -x 1.496568 -y 7.320472 -z 0.778152 -R -3.121948 -P -0.006105 -Y 1.503726"
 del_green="gz model -m lightGreen -d"
 
 while(True):	
