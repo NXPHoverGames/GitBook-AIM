@@ -375,6 +375,11 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 ## Adding Moving Obstacles
 First download the given .zip file and save it in _**\~/ros2ws/nxp\_gazebo/**_ directory.
 
+{% file src=".gitbook/assets/custom_pluggins.zip" %}
+plugins for moving obstacles
+{% endfile %}
+
+![code snippet](.gitbook/assets/dir_custom_plugin.png)
 
 To add moving obstacles into the simulation navigate to _**gen.world.jinja**_ located at _**\~/ros2ws/nxp\_gazebo/worlds **_ in the software stack. Navigate to _**line 115.**_ 
 Below this line instert following lines of code:
@@ -405,7 +410,7 @@ Please make sure to provide the full path of the plugin to be used as many times
 Also replace the /home/manish/ros2ws with the path in your own system.
 {% endhint %}
 
-![code snippet](.gitbook/assets/gen_params_sample_track.png)
+![code snippet](.gitbook/assets/world_file.png)
 
 ## Make traffic light change colour during simulation
 {% hint style="info" %}
