@@ -413,9 +413,7 @@ Also replace the /home/manish/ros2ws with the path in your own system.
 ![code snippet](.gitbook/assets/world_file.png)
 
 ## Make traffic light change colour during simulation
-{% hint style="info" %}
-The sample world was updatd on 12th August,2022. Please use the updated traffic light positions given below
-{% endhint %}
+
 In  _**spawn\_light.py**_  file, replace the content of the file with following lines of code:
 ```import os
 from time import sleep
