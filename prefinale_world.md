@@ -447,9 +447,9 @@ This script will enable changing of red light to green light (and vice versa) in
 ## Pre-finale World Visualised
 The gazebo world will look like the image below:
 
-![SAMPLE TRACK Img_1](<.gitbook/assets/prefinale_track_1.png>)
+![SAMPLE TRACK Img_1](<.gitbook/assets/prefinale_track1.png>)
 
-![SAMPLE TRACK Img_2](<.gitbook/assets/prefinale_track_2.png>)
+![SAMPLE TRACK Img_2](<.gitbook/assets/prefinale_track2.png>)
 
 ![SAMPLE TRACK Img_3](<.gitbook/assets/prefinale_track_3.png>)
 
