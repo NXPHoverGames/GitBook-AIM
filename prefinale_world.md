@@ -4,7 +4,7 @@
 
 To add obstacles into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
 
-To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_params" tag. Then copy the following code:
+To add obstacles navigate to the _**"embedded\_models"**__ sub-tag in the _**"world\_params"**__ tag. Then copy the following code:
 
 ```"embed_model_0": {
 					"model": "Raceway2",
