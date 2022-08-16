@@ -452,3 +452,5 @@ The gazebo world will look like the image below:
 ![SAMPLE TRACK Img_2](<.gitbook/assets/prefinale_track_2.png>)
 
 ![SAMPLE TRACK Img_3](<.gitbook/assets/prefinale_track_3.png>)
+
+![SAMPLE TRACK Img_3](<.gitbook/assets/prefinale_track_4.png>)
