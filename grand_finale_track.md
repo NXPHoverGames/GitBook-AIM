@@ -40,3 +40,15 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 
 ![](<.gitbook/assets/gf_1.png >)
 ![](<.gitbook/assets/gf_2.png >)
+
+
+## Update Delay (Compulsory)
+
+For Grand Finale Round, teams are required to add delay of 15 seconds before the car starts moving.
+To do this navigate to _**aim\_line\_follow.py**_ located at: _**`~/ros2ws/src/aim_line_follow/aim_line_follow`**_. Set the value of _**start_delay**_.
+
+```
+self.start_delay = 15.0
+```
+
+![](<.gitbook/assets/change_aim_follow.png >)
