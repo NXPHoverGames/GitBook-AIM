@@ -38,8 +38,8 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 
  After launching gazebo via command line, you will see the following world in simulation:
 
-![](<.gitbook/assets/gf_1.png >)
-![](<.gitbook/assets/gf_2.png >)
+![](<.gitbook/assets/gf_1.png>)
+![](<.gitbook/assets/gf_2.png>)
 
 
 ## Update Delay (Compulsory)
@@ -51,4 +51,4 @@ To do this navigate to _**aim\_line\_follow.py**_ located at: _**`~/ros2ws/src/a
 self.start_delay = 15.0
 ```
 
-![](<.gitbook/assets/change_aim_follow.png >)
+![](<.gitbook/assets/change_aim_follow.png>)
