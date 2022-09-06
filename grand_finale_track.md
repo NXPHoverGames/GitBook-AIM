@@ -4,7 +4,7 @@ description: Track for GRAND FINALE ROUND.
 
 # GRAND FINALE ROUND TRACK
 
-## Download Qualification Track
+## Download Grand Fianle Track
 
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
 
