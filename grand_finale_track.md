@@ -8,17 +8,13 @@ description: Track for GRAND FINALE ROUND.
 
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
 
-{% file src=".gitbook/assets/Raceway_1_final_qf.zip" %}
-Qualification Round Track Model
+{% file src=".gitbook/assets/Grand_Finale_Track.zip" %}
+Grand Finale Track Model
 {% endfile %}
-
-{% hint style="warning" %}
-You might get pop-up dialogue for replacing start_point model folder. Replace it with the new model available in .zip package
-{% endhint %}
 
 Your directory will look like this after downloading the new track: 
 
-![](<.gitbook/assets/model_dir.png>)
+![](<.gitbook/assets/adding_gf_track.png>)
 
 
 ## Spawn Track in Gazebo
@@ -37,9 +33,10 @@ To add new track navigate to the "embedded\_models" sub-tag in the "world\_param
 			},
 ```
  
-![](<.gitbook/assets/code_add.png>)
+![](<.gitbook/assets/code_gf_track.png>)
 
 
  After launching gazebo via command line, you will see the following world in simulation:
 
-![](<.gitbook/assets/track_final_qr.png>)
+![](<.gitbook/assets/gf_1.png >)
+![](<.gitbook/assets/gf_2.png >)
