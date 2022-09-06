@@ -14,3 +14,4 @@
 * [Adding Obstacles to Simulation World](Adding-obstacles.md)
 * [Sample Simulation World](sample-world.md)
 * [Pre-Finale Simulation World](prefinale_world.md)
+* [Grand Finale Track](grand_finale_track.md)
