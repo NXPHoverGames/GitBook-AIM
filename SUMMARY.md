@@ -15,3 +15,4 @@
 * [Sample Simulation World](sample-world.md)
 * [Pre-Finale Simulation World](prefinale_world.md)
 * [Grand Finale Track](grand_finale_track.md)
+* [Grand Finale Sample world](sample-world-grand-finale.md)
