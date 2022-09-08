@@ -1,5 +1,18 @@
 # Sample World For Grand Finale Round
 
+## Updated Obstacles
+
+Participants must download new and updated obstacles that will be used in the grand finale rounds from the given zip file:
+
+{% file src=".gitbook/assets/obstacles_updated.zip" %}
+sample obstacles
+{% endfile %}
+
+
+Extract the contents of the above zip files at: _**\~/ros2ws/nxp\_gazebo/models**_.
+
+
+
 ## Sample World
 
 To add obstacles into the simulation environment, navigate to _**\~/ros2ws/src/sim\_gazebo\_bringup/config**_ in the software stack and open the _**gen\_params.json**_ file.
@@ -429,13 +442,12 @@ To add obstacles navigate to the "embedded\_models" sub-tag in the "world\_param
 
 The gazebo world will look like the image below:
 
-![SAMPLE TRACK Img_1](<.gitbook/assets/sample_track_1.png>)
+![SAMPLE TRACK Img_1](<.gitbook/assets/gf_sample_1.png>)
 
-![SAMPLE TRACK Img_2](<.gitbook/assets/sample_track_2.png>)
+![SAMPLE TRACK Img_1](<.gitbook/assets/gf_sample_2.png>)
 
-![SAMPLE TRACK Img_3](<.gitbook/assets/sample_track_3.png>)
+![SAMPLE TRACK Img_1](<.gitbook/assets/gf_sample_3.png>)
 
-![SAMPLE TRACK Img_4](<.gitbook/assets/sample_track_4.png>)
 
 {% hint style="warning" %}
 This is just a _**sample world for the grand Finale Round**_. 
