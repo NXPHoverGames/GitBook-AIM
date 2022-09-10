@@ -491,3 +491,45 @@ This script will enable changing of red light to green light (and vice versa) in
 {% hint style="danger" %}
 This script is only compatible for sample track given above. If you want to use the script for other locations of red light in the gazebo, world then edit the -x -y -z -R -P -Y values accordingly
 {% endhint %}
+
+
+## Adding Moving Obstacles
+First download the given .zip file and save it in _**\~/ros2ws/nxp\_gazebo/**_ directory.
+
+{% file src=".gitbook/assets/custom_pluggins_grand_finale.zip" %}
+plugins for moving obstacles
+{% endfile %}
+
+![code snippet](.gitbook/assets/dir_custom_plugin.png)
+
+To add moving obstacles into the simulation navigate to _**gen.world.jinja**_ located at _**\~/ros2ws/nxp\_gazebo/worlds **_ in the software stack. Navigate to _**line 115.**_ 
+Below this line instert following lines of code:
+```
+    <include>
+      <uri>model://car_blue</uri>
+      <name>moving_car</name>
+      <pose>-1.562250 3.107690 0 0 0 0</pose>
+      <plugin name="push_animate" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/car_animation/build/libanimated_car.so"/>
+    </include>
+    
+    <include>
+      <uri>model://person_1</uri>
+      <name>moving_person_1</name>
+      <pose>-2.071470 0.387716 0.018239 0 0 1.612632</pose>
+      <plugin name="push_animate2" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/person_animation_x_dir/build/libanimated_person_xDir.so"/>
+    </include>
+    
+    <include>
+      <uri>model://person_1</uri>
+      <pose>2.603500 0.543162 0.018239 0 0 0</pose>
+      <name>moving_person_2</name>
+      <plugin name="push_animate3" filename="/home/aditya/ros2ws/nxp_gazebo/custom_pluggins/person_animation_y_dir/build/libanimated_person_yDir.so"/>
+    </include>
+```
+{% hint style="warning" %}
+Please make sure to provide the full path of the plugin to be used as many times gazebo have problems in locating custom plugin files. 
+Also replace the /home/aditya/ros2ws with the path in your own system.
+{% endhint %}
+
+![code snippet](.gitbook/assets/world_file.png)
+
