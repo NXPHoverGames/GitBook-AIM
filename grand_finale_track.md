@@ -12,7 +12,7 @@ The grand finale track was updatd on 11th September,2022 (12:00 AM IST). Please 
 
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
 
-{% file src=".gitbook/assets/Grand_Finale_Track_updated.zip" %}
+{% file src=".gitbook/assets/Grand_Finale_Track_final.zip" %}
 Grand Finale Track Model
 {% endfile %}
 
