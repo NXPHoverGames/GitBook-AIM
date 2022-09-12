@@ -7,7 +7,7 @@ description: Track for GRAND FINALE ROUND.
 ## Download Grand Fianle Track
 
 {% hint style="danger" %} 
-The grand finale track was updatd on 11th September,2022 (12:00 AM IST). Please download the new track available below. 
+The grand finale track was updatd on 12th September,2022 (9:30 AM IST). Please download the new track available below. 
 {% endhint %}
 
 Download the following zip file containing the qualification round track and extract it in _**\~ros2ws/nxp_gazebo/models/**_ .
