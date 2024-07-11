@@ -222,3 +222,6 @@ Now wait for some time till the commands ran successfully message pops up:
 ![](<.gitbook/assets/AIM_2024/step4.png>)
 
 **Now please restart your device.**
+
+### Step-5
+
