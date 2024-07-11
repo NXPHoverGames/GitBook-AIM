@@ -114,5 +114,6 @@ $ localhost:8051
 {% hint style="warning" %} Make sure to check that username and password have been entered before executing any SET {% endhint %}
 
 ### Step-1
-Execute SET 1 commands by pressing the Sart Installation (SET 1) button
+Execute SET 1 commands by pressing the **Sart Installation (SET 1)** button
 Wait for the script to run. After the script has been run, the following can be seen:
+![](<.gitbook/assets/AIM_2024/step1.PNG>)
