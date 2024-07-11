@@ -25,7 +25,8 @@ Ubuntu 22.04 installation
 {% endfile %}
 
 {% hint style="danger" %} The slides are made in reference for ubuntu ver 20.04, but same steps apply for latest versions as well. {% endhint %}
-## Setting up SSH keys
+
+# Setting up SSH keys
 
 {% hint style="info" %}
 To use NXP Gazebo, you will need to have a GitHub account. The installation scripts require a GitHub account with an SSH key.
@@ -59,30 +60,6 @@ $ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 Now, log into your GitHub account and paste your SSH key. The SSH key field is located in your account settings under "SSH and GPG keys". Add a new SSH key by pressing "New SSH key" and pasting your SSH key in the box. Make sure to give it a name!
 
-![](<.gitbook/assets/AIM_S2/image (1).png>)
+![](<.gitbook/assets/AIM_2024/ssh_key_gen.PNG>)
 
 Once you've done this, you're ready to begin the installation.
-
-## Installing Software Stack
-```
-$ cd ~/ros2ws
-$ colcon build --packages-select sim_gazebo_bringup --symlink-install
-$ echo "source /home/$USER/ros2ws/install/setup.bash" >> ~/.bashrc
-$ source ~/.bashrc
-```
-
-![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-07 00-26-31.png>)
-
-Now that we have the bringup package set up, we can start installing all of the NXP Gazebo packages. Run the following command:
-
-```
-$ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
-```
-
-{% hint style="warning" %}
-After running the above command you will be asked to run few commands a shown in the image. Copy them and run them before moving to next step of installation​
-{% endhint %}
-
-![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-07 00-33-42.png>)
-
-You've now installed NXP Gazebo! You can now move on to the next sections to continue.
