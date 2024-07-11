@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction to AIM 2024](README.md)
+* [Introduction to Gazebo](README.md)
 * [Installation of NXP Gazebo](installation-of-nxp-gazebo.md)
 * [Overview of the NXP Gazebo stack](overview-of-the-nxp-gazebo-stack.md)
 * [Running NXP Gazebo](running-nxp-gazebo.md)
