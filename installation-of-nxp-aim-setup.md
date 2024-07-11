@@ -132,3 +132,32 @@ https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html {% endhi
 Now, after restart, again go the directory where you downloaded the installation script and run the __‘streamlit run …’__
 command again.
 Now the **Start Installation (SET 2)** button should be enabled
+![](<.gitbook/assets/AIM_2024/step1.PNG>)
+
+Once again enter your username and password and press the **Start Installation (SET 2)** button.
+Now wait for some time till the commands ran successfully message pops up
+
+![](<.gitbook/assets/AIM_2024/step3.PNG>)
+
+Now wait for a pop-up terminal window to open…
+**Enter 1, to choose the airy release**
+![](<.gitbook/assets/AIM_2024/step3_airy.PNG>)
+**Again Enter 1, to choose native installer**
+![](<.gitbook/assets/AIM_2024/step3_native.PNG>)
+**Enter your device password**
+![](<.gitbook/assets/AIM_2024/step3_password.PNG>)
+**Enter y, when asked to clone repositories with git using already setup github ssh keys**
+![](<.gitbook/assets/AIM_2024/step3_y.PNG>)
+**Enter yes, when asked if you are sure you want to continue connecting**
+![](<.gitbook/assets/AIM_2024/step3_y2.PNG>)
+
+This will take some time to download and install. After successfully running, the terminal will automatically close and you will be notified with following on main terminal:
+![](<.gitbook/assets/AIM_2024/step2.png>)
+Now run the following command in a seperate terminal:
+```
+$ source ~/.bashrc
+```
+**Now please restart your device.**
+{% hint style="warning" %} After successful Installation there should be a folder named cognipilot in the home directory and the ~/cognipilot/ directory should look like this: {% endhint %}
+
+![](<.gitbook/assets/AIM_2024/step3_folder.PNG>)
