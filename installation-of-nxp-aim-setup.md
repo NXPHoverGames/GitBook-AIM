@@ -64,7 +64,7 @@ Now, log into your GitHub account and paste your SSH key. The SSH key field is l
 
 Once you've done this, you're ready to begin the installation.
 
-#Installing the Setup
+# Installing the Setup
 
 Install the following package which contains a python installation script to be used in next steps.
 
