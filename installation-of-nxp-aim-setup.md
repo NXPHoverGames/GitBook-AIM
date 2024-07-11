@@ -24,10 +24,10 @@ Steps to setup ubuntu are described in the attached PPT below. Both methods for 
 Ubuntu 22.04 installation
 {% endfile %}
 
-{% hint style="info" %} The slides are made in reference for ubuntu ver 20.04, but same steps apply for latest versions as well. {% endhint %}
+{% hint style="danger" %} The slides are made in reference for ubuntu ver 20.04, but same steps apply for latest versions as well. {% endhint %}
 ## Setting up SSH keys
 
-{% hint style="danger" %}
+{% hint style="info" %}
 To use NXP Gazebo, you will need to have a GitHub account. The installation scripts require a GitHub account with an SSH key.
 {% endhint %}
 
