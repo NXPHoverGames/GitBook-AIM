@@ -126,3 +126,9 @@ The output will be something like:
 
 {% hint style="warning" %} If SET 1 fails, you can manually follow SET 1 steps from this link:
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html {% endhint %}
+
+### Step-2
+
+Now, after restart, again go the directory where you downloaded the installation script and run the __‘streamlit run …’__
+command again.
+Now the **Start Installation (SET 2)** button should be enabled
