@@ -1,6 +1,6 @@
 # Introduction to AIM Season 2024
 
-## Why Gazebo? <a href="#why-gazebo" id="why-gazebo"></a>
+## What is AIM 2024? <a href="#why-gazebo" id="why-gazebo"></a>
 
 ![](.gitbook/assets/AIM_S2/gazebo.png)
 
