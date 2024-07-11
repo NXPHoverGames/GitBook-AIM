@@ -2,7 +2,7 @@
 
 ## Why Gazebo? <a href="#why-gazebo" id="why-gazebo"></a>
 
-![](.gitbook/assets/gazebo.png)
+![](.gitbook/assets/AIM_S2/gazebo.png)
 
 Gazebo is a full-fledged simulation environment that is compatible with PX4. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment with ease - and if you're using a brushless Cup car, you'll essentially be running the same exact code.
 

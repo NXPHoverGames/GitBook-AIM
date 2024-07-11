@@ -8,7 +8,7 @@ This page is designed to help contestants understand the inner-workings of the N
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully as NXP AIM India contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/ros2ws/` folder and is set up as follows:
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/AIM_S2/image (8).png>)
 
 | Folder      | Purpose                                                                                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,7 +23,7 @@ The NXP Gazebo simulation stack uses a diverse set of software to enable the sim
 
 The src folder within the ROS2 workspace contains specific ROS, Camera vision packages as well as the `sim_gazebo_bringup` package.
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/AIM_S2/image (9).png>)
 
 | Folder                 | Purpose                                                                                                                            |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,11 +36,11 @@ The src folder within the ROS2 workspace contains specific ROS, Camera vision pa
 
 The participants are required to use aim\_line\_follow folder to write their logic and algorithm of the self-driving car. The content of the folder is shown below:
 
-![](<.gitbook/assets/Screenshot from 2021-04-06 16-40-01.png>)
+![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-06 16-40-01.png>)
 
 Inside the aim\_line\_follow sub-folder, a sample code for the self driving car has been provided inside _aim\_line\_follow.py_  file. Participants are required to edit this file in order to complete the challenge. Participants are allowed to use any resource and practices to achieve their desired results
 
-![](<.gitbook/assets/Screenshot from 2021-04-06 16-38-31.png>)
+![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-06 16-38-31.png>)
 
 A brief of the sample self-driving code will be discussed on the futher pages
 
@@ -54,7 +54,7 @@ In order to provide a true-to-life simulated environment for NXP AIM India conte
 
 The simulation stack will open a new window that shows the debug output of the simulated Pixy camera. Here's what it looks like:
 
-![](.gitbook/assets/qt.png)
+![](.gitbook/assets/AIM_S2/qt.png)
 
 {% hint style="info" %}
 If you do not see the simulated Pixy camera output, use the drop down at the top left of the window and select /debugImage0.
@@ -62,7 +62,7 @@ If you do not see the simulated Pixy camera output, use the drop down at the top
 
 The simulated Pixy camera detects the black lines in the environment and fits lines to them. Then, it will use those lines to create a simulated Pixy camera vector output in the Pixy camera frame space as seen below:
 
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/AIM_S2/image (5).png>)
 
 As you can see in the simulated pixy camera output, the vector data returned is identical to the vector data that the real Pixy camera sends over I2C (vector head and tail coordinates for each vector). This allows contestants to use the same algorithms that are on their real NXP Cup cars.
 

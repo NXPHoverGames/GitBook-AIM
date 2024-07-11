@@ -26,7 +26,7 @@ $ ssh-keygen
 
 Follow the prompt. We suggest just pressing enter until you reach the end. It will be easier if you just use the default path for the id\_rsa file and if you go without a passphrase (though you're welcome to use one!). You should get the output below. Note that the RSA key is not shown here for security reasons:
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/AIM_S2/image (10).png>)
 
 Next, you'll want to install `xclip`. This program will allow you to copy the contents of the id\_rsa.pub file to your clipboard so you can paste it into GitHub. To install `xclip`, run the following command:
 
@@ -44,7 +44,7 @@ $ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 Now, log into your GitHub account and paste your SSH key. The SSH key field is located in your account settings under "SSH and GPG keys". Add a new SSH key by pressing "New SSH key" and pasting your SSH key in the box. Make sure to give it a name!
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/AIM_S2/image (1).png>)
 
 Once you've done this, you are ready to begin the installation.
 
@@ -52,7 +52,7 @@ Once you've done this, you are ready to begin the installation.
 
 To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following script:
 
-{% file src=".gitbook/assets/foxy_install_aim (1).sh" %}
+{% file src=".gitbook/assets/AIM_S2/foxy_install_aim (1).sh" %}
 foxy\_install\_aim.sh
 {% endfile %}
 
@@ -95,7 +95,7 @@ $ git clone git@github.com:rudislabs/sim_gazebo_bringup.git -b aim
 
 When git prompts you to continue connecting with your RSA fingerprint, type yes:
 
-![](<.gitbook/assets/image (7).png>)
+![](<.gitbook/assets/AIM_S2/image (7).png>)
 
 Next, we are going to run `sim_gazebo_bringup`. To do this, run the following commands:
 
@@ -106,7 +106,7 @@ $ echo "source /home/$USER/ros2ws/install/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-![](<.gitbook/assets/Screenshot from 2021-04-07 00-26-31.png>)
+![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-07 00-26-31.png>)
 
 Now that we have the bringup package set up, we can start installing all of the NXP Gazebo packages. Run the following command:
 
@@ -118,6 +118,6 @@ $ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
 After running the above command you will be asked to run few commands a shown in the image. Copy them and run them before moving to next step of installation​
 {% endhint %}
 
-![](<.gitbook/assets/Screenshot from 2021-04-07 00-33-42.png>)
+![](<.gitbook/assets/AIM_S2/Screenshot from 2021-04-07 00-33-42.png>)
 
 You've now installed NXP Gazebo! You can now move on to the next sections to continue.
