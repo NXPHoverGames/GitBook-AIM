@@ -1,4 +1,4 @@
-# Introduction to Gazebo
+# Introduction to AIM Season 2024
 
 ## Why Gazebo? <a href="#why-gazebo" id="why-gazebo"></a>
 
