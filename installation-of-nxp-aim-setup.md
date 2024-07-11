@@ -265,6 +265,6 @@ Now wait for some time till the commands ran successfully message pops up:
 
 ![](<.gitbook/assets/AIM_2024/stepdone.PNG>)
 
-![](<.gitbook/assets/AIM_2024/step6.png>)
+![](<.gitbook/assets/AIM_2024/step6_1.png>)
 
 __**Congratulations, you are done with the Install and Setup!**__
