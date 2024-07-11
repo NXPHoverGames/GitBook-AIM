@@ -177,7 +177,7 @@ Now run the following command in a seperate terminal:
 $ source ~/.bashrc
 ```
 
-{% hint style="warning" %} After successful Installation there should be a folder named cognipilot in the home directory and the ~/cognipilot/ directory should look like this: {% endhint %}
+{% hint style="info" %} After successful Installation there should be a folder named cognipilot in the home directory and the ~/cognipilot/ directory should look like this: {% endhint %}
 
 ![](<.gitbook/assets/AIM_2024/step3_folder.PNG>)
 
@@ -187,4 +187,25 @@ $ source ~/.bashrc
 
 Now the **Start Installation (SET 3)** button should be enabled
 
-![](<.gitbook/assets/AIM_2024/step3.PNg>)
+![](<.gitbook/assets/AIM_2024/step3.PNG>)
+
+Once again enter your username and password and press the **Start Installation (SET 3)** button.
+Now wait for some time till the commands ran successfully message pops up. __**This may take some time (upto 10 mins) depending on your device configurations.**__
+
+![](<.gitbook/assets/AIM_2024/step3_1.png>)
+
+![](<.gitbook/assets/AIM_2024/step3_2.png>)
+
+{% hint style="info" %} After running SET 3, the directory structure inside the ~/cognipilot/ folder should look like the following: {% endhint %}
+
+![](<.gitbook/assets/AIM_2024/step3_last_dic.PNG>)
+
+{% hint style="warning" %}If SET 3 fails multiple times, or if the directory structure does not resemble the picture above, restart your device and run the following command on terminal after restart: {% endhint %}
+
+![](<.gitbook/assets/AIM_2024/step3_last_dic.PNG>)
+
+```
+$ build_workdpace
+```
+
+**Now please restart your device.**
