@@ -141,14 +141,23 @@ Now wait for some time till the commands ran successfully message pops up
 
 Now wait for a pop-up terminal window to open…
 **Enter 1, to choose the airy release**
+
 ![](<.gitbook/assets/AIM_2024/step3_airy.PNG>)
+
 **Again Enter 1, to choose native installer**
+
 ![](<.gitbook/assets/AIM_2024/step3_native.PNG>)
+
 **Enter your device password**
+
 ![](<.gitbook/assets/AIM_2024/step3_password.PNG>)
+
 **Enter y, when asked to clone repositories with git using already setup github ssh keys**
+
 ![](<.gitbook/assets/AIM_2024/step3_y.PNG>)
+
 **Enter yes, when asked if you are sure you want to continue connecting**
+
 ![](<.gitbook/assets/AIM_2024/step3_y2.PNG>)
 
 This will take some time to download and install. After successfully running, the terminal will automatically close and you will be notified with following on main terminal:
