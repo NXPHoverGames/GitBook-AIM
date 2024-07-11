@@ -177,8 +177,14 @@ Now run the following command in a seperate terminal:
 $ source ~/.bashrc
 ```
 
-**Now please restart your device.**
-
 {% hint style="warning" %} After successful Installation there should be a folder named cognipilot in the home directory and the ~/cognipilot/ directory should look like this: {% endhint %}
 
 ![](<.gitbook/assets/AIM_2024/step3_folder.PNG>)
+
+**Now please restart your device.**
+
+### Step-3
+
+Now the **Start Installation (SET 3)** button should be enabled
+
+![](<.gitbook/assets/AIM_2024/step3.PNg>)
