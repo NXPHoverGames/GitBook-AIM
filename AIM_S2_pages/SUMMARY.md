@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction to Gazebo](README.md)
+* [Introduction to Gazebo](README_old.md)
 * [Installation of NXP Gazebo](installation-of-nxp-gazebo.md)
 * [Overview of the NXP Gazebo stack](overview-of-the-nxp-gazebo-stack.md)
 * [Running NXP Gazebo](running-nxp-gazebo.md)
