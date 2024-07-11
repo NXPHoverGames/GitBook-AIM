@@ -20,11 +20,14 @@ It is advised to have a steady internet collection and system to be plugged onto
 ## Steps for Ubuntu 22.04 setup
 Steps to setup ubuntu are described in the attached PPT below. Both methods for dual boot and are mentioned below:
 
-![](<.gitbook/assets/AIM_S2/NXP AIM installation guide.pptx>)
+{% file src=".gitbook/assets/AIM_2024/AIM_installation_guide.pptx" %}
+Ubuntu 22.04 installation
+{% endfile %}
 
+{% hint style="info" %} The slides are made in reference for ubuntu ver 20.04, but same steps apply for latest versions as well. {% endhint %}
 ## Setting up SSH keys
 
-{% hint style="info" %}
+{% hint style="danger" %}
 To use NXP Gazebo, you will need to have a GitHub account. The installation scripts require a GitHub account with an SSH key.
 {% endhint %}
 
