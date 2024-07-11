@@ -213,4 +213,12 @@ $ build_workdpace
 ### Step-4
 
 Now the **Start Installation (SET 4)** button should be enabled.
+
 ![](<.gitbook/assets/AIM_2024/step4.PNG>)
+
+Once again enter your username and password and press the **Start Installation (SET 4)** button.
+Now wait for some time till the commands ran successfully message pops up:
+
+![](<.gitbook/assets/AIM_2024/step4.png>)
+
+**Now please restart your device.**
