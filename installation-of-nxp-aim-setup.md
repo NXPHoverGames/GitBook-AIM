@@ -256,7 +256,15 @@ Now wait for some time till the commands ran successfully message pops up.This m
 
 ### Step-6
 
-Now the Start Installation (SET 6) button should be enabled.
+Now the **Start Installation (SET 6)** button should be enabled.
 
 ![](<.gitbook/assets/AIM_2024/step6.PNG>)
 
+Once again enter your username and password and press the Start Installation (SET 6) button.
+Now wait for some time till the commands ran successfully message pops up:
+
+![](<.gitbook/assets/AIM_2024/stepdone.PNG>)
+
+![](<.gitbook/assets/AIM_2024/step6.png>)
+
+__**Congratulations, you are done with the Install and Setup!**__
