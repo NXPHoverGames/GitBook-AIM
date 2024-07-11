@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Introduction to AIM 2024](README.md)
+* [Installation of NXP Gazebo](installation-of-nxp-gazebo.md)
+* [Overview of the NXP Gazebo stack](overview-of-the-nxp-gazebo-stack.md)
+* [Running NXP Gazebo](running-nxp-gazebo.md)
+* [Overview of Example Code](overview-of-example-code.md)
+* [Updating Car Physics](updating-car-physics.md)
+* [Important Modification in Setup](important-modification-in-setup.md)
+* [Necessary Updates for Final Round](necessary-updates-for-final-round.md)
+* [Changing Track](changing-track.md)
+* [Adding obstacles into Gazebo simulation](adding-obstacles-into-gazebo-simulation.md)
+* [Custom ROS2 Messages](custom-ros2-messages.md)
+* [UPDATE: TRACK SIZE](update-track-size.md)
+* [Sample Track](sample-track.md)
