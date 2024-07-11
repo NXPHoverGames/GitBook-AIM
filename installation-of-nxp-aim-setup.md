@@ -161,12 +161,17 @@ Now wait for a pop-up terminal window to open…
 ![](<.gitbook/assets/AIM_2024/step3_y2.PNG>)
 
 This will take some time to download and install. After successfully running, the terminal will automatically close and you will be notified with following on main terminal:
+
 ![](<.gitbook/assets/AIM_2024/step2.png>)
+
 Now run the following command in a seperate terminal:
+
 ```
 $ source ~/.bashrc
 ```
+
 **Now please restart your device.**
+
 {% hint style="warning" %} After successful Installation there should be a folder named cognipilot in the home directory and the ~/cognipilot/ directory should look like this: {% endhint %}
 
 ![](<.gitbook/assets/AIM_2024/step3_folder.PNG>)
