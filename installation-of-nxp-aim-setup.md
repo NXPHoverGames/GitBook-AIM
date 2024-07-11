@@ -103,3 +103,10 @@ $ streamlit run AIM_S3_Install_Script.py
 On running this command, if it asks for your email, you can skip that by just pressing enter.
 After that the following should be opened on your default browser:
 ![](<.gitbook/assets/AIM_2024/pic2.PNG>)
+
+{% hint style="info" %} If the above page does not open on its own, you can go to your default web browser and paste this: {% endhint %}
+```
+$ localhost:8051
+```
+4. Enter your device usename and password
+![](<.gitbook/assets/AIM_2024/password.PNG>)
