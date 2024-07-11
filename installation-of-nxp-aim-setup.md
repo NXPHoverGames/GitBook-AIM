@@ -117,3 +117,12 @@ $ localhost:8051
 Execute SET 1 commands by pressing the **Sart Installation (SET 1)** button
 Wait for the script to run. After the script has been run, the following can be seen:
 ![](<.gitbook/assets/AIM_2024/step1.PNG>)
+
+The progress and the outcome can also be verified from the terminal on which you ran the ‘streamlit run …’ command.
+The output will be something like:
+![](<.gitbook/assets/AIM_2024/step1.png>)
+
+** After runing SET 1, please restart your device. **
+
+{% hint style="warning" %} If SET 1 fails, you can manually follow SET 1 steps from this link:
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html {% endhint %}
