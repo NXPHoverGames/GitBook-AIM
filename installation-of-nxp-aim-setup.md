@@ -244,3 +244,5 @@ $ ./update_repos_native.sh
 Close this terminal and now run SET 5 of installation script, which should be enabled now:
 
 ![](<.gitbook/assets/AIM_2024/step5.PNG>)
+
+### Step-6
