@@ -74,10 +74,13 @@ AIM 2024 installation setup
 
 ### Python version check
 You can check your python version by using the following command:
+
 ```
 $ python3 --version
 ```
+
 The output should be something like this:
+
 ![](<.gitbook/assets/AIM_2024/pic1.PNG>)
 
 If python version is 3.11 or greater than 3.11, make sure to run the following command:
@@ -102,6 +105,7 @@ $ streamlit run AIM_S3_Install_Script.py
 
 On running this command, if it asks for your email, you can skip that by just pressing enter.
 After that the following should be opened on your default browser:
+
 ![](<.gitbook/assets/AIM_2024/pic2.PNG>)
 
 {% hint style="info" %} If the above page does not open on its own, you can go to your default web browser and paste this: {% endhint %}
@@ -116,10 +120,12 @@ $ localhost:8051
 ### Step-1
 Execute SET 1 commands by pressing the **Sart Installation (SET 1)** button
 Wait for the script to run. After the script has been run, the following can be seen:
+
 ![](<.gitbook/assets/AIM_2024/step1.PNG>)
 
 The progress and the outcome can also be verified from the terminal on which you ran the ‘streamlit run …’ command.
 The output will be something like:
+
 ![](<.gitbook/assets/AIM_2024/step1.png>)
 
 ** After runing SET 1, please restart your device. **
@@ -132,6 +138,7 @@ https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html {% endhi
 Now, after restart, again go the directory where you downloaded the installation script and run the __‘streamlit run …’__
 command again.
 Now the **Start Installation (SET 2)** button should be enabled
+
 ![](<.gitbook/assets/AIM_2024/step1.PNG>)
 
 Once again enter your username and password and press the **Start Installation (SET 2)** button.
