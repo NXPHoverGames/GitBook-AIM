@@ -3,7 +3,7 @@
 The participants are required to do the following code changes mentioned below.
 
 {% hint style="info" %}
-These changes will help to improve your algorithm working and now there will be less variation in simulation outputs
+These changes will help to improve your algorithm working and will show very less variation in simulation outputs
 {% endhint %}
 
 ### Change one:&#x20;
@@ -28,7 +28,7 @@ You need to delete the following lines of code that are selected below image:
 
 ![](.gitbook/assets/AIM_S2/aim.png)
 
-After deletion, write the lines 24- 32 as shown in the image below:
+After deletion, write the lines 24-32 as shown in the image below:
 
 ![](.gitbook/assets/AIM_S2/after\_aim.png)
 

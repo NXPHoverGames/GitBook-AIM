@@ -2,21 +2,21 @@
 description: Guide to install setup for NXP AIM CUP CHALLENGE.
 ---
 
-# Installation of NXP Gazebo
+# Installation of NXP AIM Software Stack
 
 ## Notice
 
 {% hint style="warning" %}
-It is advised to have a steady internet collection and system to be plugged onto power as installation and setting up the setup will take a long time to finish. We also advise you to perform this installation on a clean Ubuntu 20.04 installation. If you have previously installed ROS1 Noetic, there may be issues with installation and we advise uninstalling it for the sake of compatibility with NXP Gazebo.
+It is advised to have a steady internet collection and system to be plugged onto power as installation and setting up the setup will take a long time to finish. System requirements (recommended): 2 GHz dual core processor 4GB memory, 25GB available disk space USB Port.
 {% endhint %}
 
-## Setting up SSH keys
+## Setting up NXP AIM simulation Software
 
 {% hint style="info" %}
 To use NXP Gazebo, you will need to have a GitHub account. The installation scripts require a GitHub account with an SSH key.
 {% endhint %}
 
-### Creating an SSH key
+### Setting up SSH keys
 
 To create an SSH key, run the following in a terminal:
 
@@ -40,13 +40,13 @@ Once you've installed xclip, you need to copy the id\_rsa.pub file to your clipb
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
 
-### Adding your SSH key to GitHub
+### Adding your SSH key to Github
 
 Now, log into your GitHub account and paste your SSH key. The SSH key field is located in your account settings under "SSH and GPG keys". Add a new SSH key by pressing "New SSH key" and pasting your SSH key in the box. Make sure to give it a name!
 
 ![](<.gitbook/assets/AIM_S2/image (1).png>)
 
-Once you've done this, you're ready to begin the installation.
+Once you've done this, you are ready to begin the installation.
 
 ## Installing ROS2
 
