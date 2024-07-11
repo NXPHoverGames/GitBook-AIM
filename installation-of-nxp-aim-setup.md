@@ -18,7 +18,7 @@ It is advised to have a steady internet collection and system to be plugged onto
 {% endhint %}
 
 ## Steps for Ubuntu 22.04 setup
-Steps to setup ubuntu are described in the attached PPT below. Both methods for dual boot and are mentioned below:
+Steps to setup ubuntu are described in the attached PPT below. Both methods for dual boot and only ubuntu BIOS are mentioned below:
 
 {% file src=".gitbook/assets/AIM_2024/AIM_installation_guide.pptx" %}
 Ubuntu 22.04 installation
