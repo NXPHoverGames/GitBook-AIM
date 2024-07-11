@@ -86,3 +86,19 @@ $ sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```
 (Note: Replace the python3.11 with you installed version. For example, if your installed version is 3.12.06, the you should
 write python3.12)
+
+## Running the Installation Script
+
+To run the installation script follow the steps below:
+1. Install streamlit
+```
+$ sudo pip install streamlit
+```
+2. Navigate to the folder where you have downloaded the installation script
+3. Run the following command
+```
+$ streamlit run AIM_S3_Install_Script.py
+```
+
+On running this command, if it asks for your email, you can skip that by just pressing enter.
+After that the following should be opened on your default browser:
