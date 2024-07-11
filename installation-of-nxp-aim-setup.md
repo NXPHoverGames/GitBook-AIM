@@ -235,6 +235,8 @@ alt=media&token=dce08eda-26f1-440e-8ca7-cf8ac297b1d4
 3. Save the file in the following directory: __**~/cognipilot/**__
 4. Run the following commands in a new terminal
 
+![](<.gitbook/assets/AIM_2024/step5_1.png>)
+
 ```
 $ cd ~/cognipilot
 $ chmod +x update_repos_native.sh
@@ -244,5 +246,12 @@ $ ./update_repos_native.sh
 Close this terminal and now run SET 5 of installation script, which should be enabled now:
 
 ![](<.gitbook/assets/AIM_2024/step5.PNG>)
+
+Once again enter your username and password and press the **Start Installation (SET 5)** button.
+Now wait for some time till the commands ran successfully message pops up.This may take some time (upto 10 mins) depending on your device configurations.
+
+![](<.gitbook/assets/AIM_2024/step5_2.png>)
+
+**Now please restart your device.**
 
 ### Step-6
