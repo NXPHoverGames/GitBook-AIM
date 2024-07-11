@@ -11,13 +11,13 @@ To run Gazebo you will need an Ubuntu Linux (22.04) environment. You can run the
 
 # Installation of Ubuntu 22.04
 
-## Notice
+### Notice
 
 {% hint style="warning" %}
 It is advised to have a steady internet collection and system to be plugged onto power as installation and setting up the setup will take a long time to finish. We also advise you to perform this installation on a clean Ubuntu 22.04 installation.
 {% endhint %}
 
-## Steps for Ubuntu 22.04 setup
+### Steps for Ubuntu 22.04 setup
 Steps to setup ubuntu are described in the attached PPT below. Both methods for dual boot and only ubuntu BIOS are mentioned below:
 
 {% file src=".gitbook/assets/AIM_2024/AIM_installation_guide.pptx" %}
@@ -63,3 +63,26 @@ Now, log into your GitHub account and paste your SSH key. The SSH key field is l
 ![](<.gitbook/assets/AIM_2024/ssh_key_gen.PNG>)
 
 Once you've done this, you're ready to begin the installation.
+
+#Installing the Setup
+
+Install the following package which contains a python installation script to be used in next steps.
+
+{% file src=".gitbook/assets/AIM_2024/AIM_S3_Installation.zip" %}
+AIM 2024 installation setup
+{% endfile %}
+
+### Python version check
+You can check your python version by using the following command:
+```
+$ python3 --version
+```
+The output should be something like this:
+![](<.gitbook/assets/AIM_2024/pic1.PNG>)
+
+If python version is 3.11 or greater than 3.11, make sure to run the following command:
+```
+$ sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+```
+(Note: Replace the python3.11 with you installed version. For example, if your installed version is 3.12.06, the you should
+write python3.12)
