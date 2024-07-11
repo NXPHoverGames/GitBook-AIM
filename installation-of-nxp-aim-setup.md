@@ -255,3 +255,8 @@ Now wait for some time till the commands ran successfully message pops up.This m
 **Now please restart your device.**
 
 ### Step-6
+
+Now the Start Installation (SET 6) button should be enabled.
+
+![](<.gitbook/assets/AIM_2024/step6.PNG>)
+
