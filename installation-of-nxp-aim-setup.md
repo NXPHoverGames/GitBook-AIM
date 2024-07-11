@@ -209,3 +209,8 @@ $ build_workdpace
 ```
 
 **Now please restart your device.**
+
+### Step-4
+
+Now the **Start Installation (SET 4)** button should be enabled.
+![](<.gitbook/assets/AIM_2024/step4.PNG>)
