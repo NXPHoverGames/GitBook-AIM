@@ -35,7 +35,7 @@ $ source ~/cognipilot/cranium/install/setup.bash
 $ ros2 run b3rb_ros_line_follower detect
 ```
 
-__**Running the above 3 commands should make the buggy move autonomously now in simulation.*_
+_**Running the above 3 commands should make the buggy move autonomously now in simulation.*_
 
 {% hint style="danger" %}If on execution of any __ros2 run b3rb_ros_line_follower_ gives error like below, it means that sourcing of setup.bash was unsuccesful
 {% endhint %}
