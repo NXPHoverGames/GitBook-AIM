@@ -4,7 +4,7 @@
 
 Download the following package:
 
-{% file src=".gitbook/assets/AIM_S2/AIM_2024_launcher.zip" %}
+{% file src=".gitbook/assets/AIM_2024/AIM_2024_launcher.zip" %}
 sample obstacles
 {% endfile %}
 
