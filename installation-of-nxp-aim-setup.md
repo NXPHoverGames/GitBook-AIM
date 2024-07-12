@@ -190,7 +190,7 @@ Now the **Start Installation (SET 3)** button should be enabled
 ![](<.gitbook/assets/AIM_2024/step3.PNG>)
 
 Once again enter your username and password and press the **Start Installation (SET 3)** button.
-Now wait for some time till the commands ran successfully message pops up. __**This may take some time (upto 10 mins) depending on your device configurations.**__
+Now wait for some time till the commands ran successfully message pops up. __**This may take some time (upto 10 mins) depending on your device configurations.**_
 
 ![](<.gitbook/assets/AIM_2024/step3_1.png>)
 
@@ -231,8 +231,8 @@ https://396338415-files.gitbook.io/~/files/v0/b/gitbook-xprod.
 appspot.com/o/spaces%2FU93yDWZcgjXGgsC1Duqv%2Fuploads%2FlOvM24532lSgdGTQmH49%2Fupdate_repo
 alt=media&token=dce08eda-26f1-440e-8ca7-cf8ac297b1d4
 
-2. Rename the file as: __**update_repos_native.sh**__
-3. Save the file in the following directory: __**~/cognipilot/**__
+2. Rename the file as: __**update_repos_native.sh**_
+3. Save the file in the following directory: __**~/cognipilot/**_
 4. Run the following commands in a new terminal
 
 ![](<.gitbook/assets/AIM_2024/step5_1.png>)
@@ -267,4 +267,63 @@ Now wait for some time till the commands ran successfully message pops up:
 
 ![](<.gitbook/assets/AIM_2024/step6_1.png>)
 
-__**Congratulations, you are done with the Install and Setup!**__
+__**Congratulations, you are done with the Install and Setup!**_
+
+
+## Troubleshooting after final step of installation
+If you are getting a similar error message at the end of step-6: 
+
+![](<.gitbook/assets/AIM_2024/step6_1.png>)
+
+It means that there was some error in one of the modules. To rectify this follow the following steps:
+Run the following command in a new terminal:
+
+```
+$ cd ~/cognipilot/cranium
+$ colcon build
+```
+
+You will get a similar output as follows:
+
+![](<.gitbook/assets/AIM_2024/step6_troubleshoot_1.png>)
+
+Over here you can see that there was a error in synapse_ros , Identify where all error is coming in your case in a similar
+way.
+Now run the following commands in the folder where the error is identified. For example for __synapse_ros_ error as above,
+we need to run the following command in the __~/cognipilot/cranium/src/synapse_ros/_
+
+```
+$ cd ~/cognipilot/cranium/src/synapse_ros/
+$ git checkout
+```
+
+The branch should be **airy**. If it is any other branch (like in the image below):
+
+![](<.gitbook/assets/AIM_2024/git_checkout.PNG>)
+
+Run the following command to change the branch:
+
+```
+$ git checkout airy
+$ git pull
+```
+Output should be as follows:
+
+![](<.gitbook/assets/AIM_2024/git_pull.PNG>)
+
+After doing the above steps for all the nodes that had error, run the following command:
+
+```
+$ cd ~/cognipilot/cranium
+$ colcon build
+```
+
+Now you should get the following output:
+
+![](<.gitbook/assets/AIM_2024/build_success.PNG>)
+
+And a similar popup should appear:
+
+![](<.gitbook/assets/AIM_2024/colcon_build_pass.PNG>)
+
+__**Now you are ready to run the simulation.**_
