@@ -243,6 +243,8 @@ $ chmod +x update_repos_native.sh
 $ ./update_repos_native.sh
 ```
 
+![](<.gitbook/assets/AIM_2024/step5_2.png>)
+
 Close this terminal and now run SET 5 of installation script, which should be enabled now:
 
 ![](<.gitbook/assets/AIM_2024/step5.PNG>)
@@ -250,7 +252,9 @@ Close this terminal and now run SET 5 of installation script, which should be en
 Once again enter your username and password and press the **Start Installation (SET 5)** button.
 Now wait for some time till the commands ran successfully message pops up.This may take some time (upto 10 mins) depending on your device configurations.
 
-![](<.gitbook/assets/AIM_2024/step5_2.png>)
+![](<.gitbook/assets/AIM_2024/step5_3.png>)
+
+![](<.gitbook/assets/AIM_2024/step5_4.png>)
 
 **Now please restart your device.**
 
