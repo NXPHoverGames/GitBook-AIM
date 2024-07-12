@@ -33,3 +33,15 @@ This project contains three python scripts for a line follower application.
 ## b3rb_ros_object_recog
 - <span style="background-color: #FFC0CB; font-weight:bold"> b3rb_ros_object_recog</span>: Contains framework for recognizing objects on the track.
   - Write your code in the "camera_image_callback" function.
+
+# Communication between ROS-2 nodes
+
+The below diagram depicts how various essential ROS-2 nodes are communicating with each other:
+
+![](<.gitbook/assets/AIM_2024/ros_graph.PNG>)
+
+In above graph:
+  - The ovals are the nodes.
+  - The rectangles are the topics.
+  - The outer rectangles are namespaces of the topics.
+  - The arrows represent publishers and subscriptions of nodes.
