@@ -45,9 +45,9 @@ Please make sure to save the file before running the launch command and follow p
 
 ```
 "embed_model_1": {
-					"pose": "0.2 -0.45 0.09 0 0 0",
-          "type": "start_point"
-				}
+	"pose": "0.2 -0.45 0.09 0 0 0",
+	"type": "start_point"
+}
 ```
 
 * **"embed_model_1":** It is a custom unique identifier given to each entity which allows Gazebo to keep track of each model spawned into the simulation.
@@ -67,3 +67,36 @@ Please make sure the name of the model passed to the _"type"_ parameter must be 
 {% hint style="info" %}
 Please make sure to save the file before running the launch command and follow proper JSON syntax in the file
 {% endhint %}
+
+## Executing the launcher
+
+To execute the launcher, open a new terminal in directory: _**~/cognipilot/cranium/AIM_2024_launcher**_.
+
+There are two modes of executing the launcher: start and stop
+
+### Start mode
+This mode will do the following steps in mentioned order:
+	- Close the previous running simulation instance
+ 	- Update the world file in dream_worlds folder
+  	- Perform clean build of stack
+   	- Sourcing of bash file
+    	- Launch the simulation
+     	- Execute commands to make buggy move autonomously in simulation
+
+{% hint style="info" %}
+This will automatically include all the changes done by user in **b3rb_ros_line_follower** module/folder.
+{% endhint %}
+
+To execute the launcher in start mode, run the following command on terminal:
+
+ ```
+$ python launch_sim.py start
+```
+
+On executing the above command you will get output similar to:
+
+ ![](.gitbook/assets/AIM_2024/start_1.png)
+
+ ![](.gitbook/assets/AIM_2024/start_2.png)
+
+ ![](.gitbook/assets/AIM_2024/sim_launch.png)
