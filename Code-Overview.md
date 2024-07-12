@@ -36,6 +36,12 @@
 - <span style="background-color: #FFC0CB; font-weight:bold"> b3rb_ros_object_recog</span>: Contains framework for recognizing objects on the track.
   - Write your code in the "camera_image_callback" function.
 
+## Important Note
+
+{% hint style="warning" %}The limit for car linear movement _**(speed)**_ is in range **-1 to +100**.
+The limit for car angular movement _**(steer)**_ is in range **-1 to +1**.
+{% endhint %}
+
 # Communication between ROS-2 nodes
 
 The below diagram depicts how various essential ROS-2 nodes are communicating with each other:
