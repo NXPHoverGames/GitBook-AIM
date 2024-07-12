@@ -100,3 +100,16 @@ On executing the above command you will get output similar to:
  ![](.gitbook/assets/AIM_2024/start_2.png)
 
  ![](.gitbook/assets/AIM_2024/sim_launch.png)
+
+### Stop mode
+This mode will only close the running simulation instance
+
+To execute the launcher in stop mode, run the following command on terminal:
+
+ ```
+$ python launch_sim.py stop
+```
+
+On executing the above command you will get output similar to below image and simulation instance will terminate, killing all background process needed by simulation to run and communication between ros2 and gazebo:
+
+ ![](.gitbook/assets/AIM_2024/stop.png)
