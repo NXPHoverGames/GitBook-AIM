@@ -39,3 +39,5 @@ __**Running the above 3 commands should make the buggy move autonomously now in 
 
 {% hint style="danger" %}If on execution of any __ros2 run b3rb_ros_line_follower_ gives error like below, it means that sourcing of setup.bash was unsuccesful
 {% endhint %}
+
+![](<.gitbook/assets/AIM_S2/line_follower_fail.png>)
