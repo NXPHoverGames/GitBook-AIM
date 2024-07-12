@@ -49,4 +49,6 @@ Please make sure the name of the model passed to the _"URI tag"_ parameter must 
 Use unique string values for the _"name"_ parameter for each obstacle to be added. As same value will not spawn the obstacles into simulation
 {% endhint %}
 
-* **"pose":** This parameter defines the position and orientation of models in simulation. It is represented by "x y z R P Y" where: **x is x-coordinate, y is y-coordinate, z is z-coordinate, R is roll, P is pitch and Y is yaw.**
+* **"pose":** This parameter defines the position and orientation of models in simulation. rIt is represented by "x y z R P Y" where: **x is x-coordinate, y is y-coordinate, z is z-coordinate, R is roll, P is pitch and Y is yaw.**
+
+{% hint style="danger" %}Please make sure to run all the update commands mentioned to re-build the stack, in order to see the changes in next simulation run. {% endhint %}
