@@ -7,7 +7,7 @@ Below zip file contains all the gazebo models to be used in Regional Finale:
 Gazebo obstacles
 {% endfile %}
 
-Download and extract the obstacles in the following folder: __**~/cognipilot/cranium/src/dream_world/models**_
+Download and extract the obstacles in the following folder: _**~/cognipilot/cranium/src/dream_world/models**_
 
 After extraction your folder should look like this:
 
