@@ -36,8 +36,8 @@ After the last _</scene>_ tag at the end of world file, we will add the informat
 </include>
 ```
 
-* **"<include>":** This tag will contain information about one unique instance of any model spawned in simulation. Make sure to always have end tag as well, when using this (_"<include>"_).
-* **"<uri>":** It is the name of the model to be spawned into the simulation. This represents the name of the desired model that has to be spawned and is stored either in _**~/cognipilot/cranium/src/dream_world/models***_ .
+* **"include":** This tag will contain information about one unique instance of any model spawned in simulation. Make sure to always have end tag as well, when using this (_"include"_).
+* **"uri":** This tag will contain name/type of the model to be spawned into the simulation. This represents the name of the desired model that has to be spawned and is stored either in _**~/cognipilot/cranium/src/dream_world/models***_ .
 
 {% hint style="info" %}
 Please make sure the name of the model passed to the _"URI tag"_ parameter must be case sensitive as well as present in the mentioned folder.
