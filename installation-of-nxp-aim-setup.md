@@ -326,4 +326,4 @@ And a similar popup should appear:
 
 ![](<.gitbook/assets/AIM_2024/colcon_build_pass.PNG>)
 
-__**Now you are ready to run the simulation.**_
+_**Now you are ready to run the simulation.**_
