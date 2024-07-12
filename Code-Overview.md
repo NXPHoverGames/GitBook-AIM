@@ -1,7 +1,9 @@
 # Understanding the B3RB ROS LINE FOLLOWER
-
-This folder is present at location __~/cognipilot/cranium/src_. This is the only folder that participants will need to modify and submit for regional finale.
-This project contains three python scripts for a line follower application.
+- The **Line Follower** software is a ROS based application which leverages NXP's autopilot project called **Cognipilot**.
+- This software can run on the Gazebo simulator and on NXP's NAVQ+ board.
+- This directory will be present at the location - ~/cognipilot/cranium/src_. 
+- This is the only folder that participants will need to modify and submit for the regional finale.
+- This project contains following three python scripts for a line follower application -
 
 ## b3rb_ros_edge_vectors
 - <span style="background-color: #FFC0CB; font-weight:bold">b3rb_ros_edge_vectors</span>: It creates vectors on the edges of the road in front of the rover.
