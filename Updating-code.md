@@ -6,6 +6,7 @@ the changes:
 ```
 $ cd ~/cognipilot/cranium
 $ colcon build
+$ source ~/cognipilot/cranium/install/setup.bash
 ```
 
 After succesful, build a similar message should pop up:
