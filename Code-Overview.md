@@ -39,7 +39,8 @@ This project contains three python scripts for a line follower application.
 The below diagram depicts how various essential ROS-2 nodes are communicating with each other:
 
 ![](<.gitbook/assets/AIM_2024/ros_graph.PNG>)
-![image](https://github.com/user-attachments/assets/455c6213-0444-47f5-ab6c-cf3c397ff922)
+
+![ros-graph1](https://github.com/user-attachments/assets/9fb06484-875d-4903-b2cc-4582587698bc)
 
 In above graph:
   - The ovals are the nodes.
