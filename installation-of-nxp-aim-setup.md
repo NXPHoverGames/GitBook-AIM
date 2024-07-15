@@ -72,7 +72,7 @@ Install the following package which contains a python installation script to be 
 Please make sure you are using the updated installer, uploaded on 15th July,2024 (10 PM IST).
 {% endhint %}
 
-{% file src=".gitbook/assets/AIM_2024/AIM_S3_InstallationFinal.zip" %}
+{% file src=".gitbook/assets/AIM_2024/AIM_S3_Installation_Final.zip" %}
 AIM 2024 installation setup (updated)
 {% endfile %}
 
