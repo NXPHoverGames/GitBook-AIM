@@ -68,8 +68,12 @@ Once you've done this, you're ready to begin the installation.
 
 Install the following package which contains a python installation script to be used in next steps.
 
-{% file src=".gitbook/assets/AIM_2024/AIM_S3_Installation.zip" %}
-AIM 2024 installation setup
+{% hint style="danger" %}
+Please make sure you are using the updated installer, uploaded on 15th July,2024 (10 PM IST).
+{% endhint %}
+
+{% file src=".gitbook/assets/AIM_2024/AIM_S3_InstallationFinal.zip" %}
+AIM 2024 installation setup (updated)
 {% endfile %}
 
 ### Python version check
