@@ -210,7 +210,7 @@ Now wait for some time till the commands ran successfully message pops up. __**T
 
 ```
 $ cd ~/cognipilot
-$ build_workdpace
+$ build_workspace
 ```
 
 **Now please restart your device.**
