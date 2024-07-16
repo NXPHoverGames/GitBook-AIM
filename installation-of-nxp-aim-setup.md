@@ -209,6 +209,7 @@ Now wait for some time till the commands ran successfully message pops up. __**T
 ![](<.gitbook/assets/AIM_2024/step3_last_dic.PNG>)
 
 ```
+$ cd ~/cognipilot
 $ build_workdpace
 ```
 
