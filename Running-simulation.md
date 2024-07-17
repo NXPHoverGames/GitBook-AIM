@@ -43,3 +43,13 @@ _**Running the above 3 commands should make the buggy move autonomously now in s
 {% endhint %}
 
 ![](<.gitbook/assets/AIM_S2/line_follower_fail.png>)
+
+
+## Troubleshooting
+
+If after successful installation done on step-6, one is  still facing issue on executing ros2 run b3rb_ros_line_follower vectors/detect/runner commands, then please make sure that the packaage installed in /cognipilot/cranium/src for br3b_ros_line_follower is same as this folder: https://github.com/NXPHoverGames/NXP_AIM_INDIA_2024/tree/main/b3rb_ros_line_follower
+
+There seems issue from github side, where it is clonning previous unstable commit files and will cause issue. Please repalce the content with the content available on github and re-build the setup and try running again.
+
+If issue is still not resolved try this approach:
+Please clone the setup from https://github.com/NXPHoverGames/NXP_AIM_INDIA_2024/tree/main and manually follow steps given here: https://github.com/NXPHoverGames/NXP_AIM_INDIA_2024/tree/main?tab=readme-ov-file#execution-steps
