@@ -7,6 +7,7 @@
 * [Adding Obstacles in simulation](Adding_obstacles.md)
 * [Execute AIM 2024 (Automation Setup)](Start-AIM-setup.md)
 * [Code Overview for AIM 2024 software stack](Code-Overview.md)
+* [Sample World for Regional Finale](Sample-world-Regional.md)
 
 
 
