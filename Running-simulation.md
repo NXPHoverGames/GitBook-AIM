@@ -10,9 +10,11 @@ To run the simulation, run the following commands in a new Terminal Window
 $ ros2 launch b3rb_gz_bringup sil.launch.py world:=Raceway_1
 ```
 
-Running this will launch the gazebo simulation as follows:
+Running this will launch the gazebo simulation and Xterm window as follows:
 
 ![](<.gitbook/assets/AIM_2024/gazebo_up_1.png>)
+
+![](<.gitbook/assets/AIM_2024/running sim.png>)
 
 On a different terminal run the following code:
 
