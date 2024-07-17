@@ -11,6 +11,8 @@ Gazebo obstacles (updated)
 
 Download and extract the obstacles in the following folder: _**~/cognipilot/cranium/src/dream_world/models**_
 
+{% hint style="info" %} Make sure to delete all previous models of same name while extracting new updated models for the same {% endhint %}
+
 After extraction your folder should look like this:
 
 ![](.gitbook/assets/AIM_2024/model_dir.png)
