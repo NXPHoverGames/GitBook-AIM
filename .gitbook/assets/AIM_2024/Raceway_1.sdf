@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<sdf version='1.10'>
+  <world name='default'>
+    <light type="directional" name="my_light">
+        <pose>0 0 30 0 0 0</pose>
+        <diffuse>1.0 1.0 1.0 1</diffuse>
+        <specular>.1 .1 .1 1</specular>
+        <attenuation>
+            <range>100</range>
+        </attenuation>
+        <direction>0 0 -1</direction>
+        <cast_shadows>true</cast_shadows>
+    </light>
+    <physics type='ode'>
+      <max_step_size>0.0040000000000000001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+    </physics>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
+    <plugin name='gz::sim::systems::Magnetometer' filename='gz-sim-magnetometer-system'/>
+    <plugin name='gz::sim::systems::Altimeter' filename='gz-sim-altimeter-system'/>
+    <plugin name='gz::sim::systems::NavSat' filename='gz-sim-navsat-system'/>
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <gui fullscreen='false'>
+      <plugin name='3D View' filename='GzScene3D'>
+        <gz-gui>
+          <title>3D View</title>
+          <property type='bool' key='showTitleBar'>0</property>
+          <property type='string' key='state'>docked</property>
+        </gz-gui>
+        <engine>ogre2</engine>
+        <scene>scene</scene>
+        <ambient_light>0.5984631152222222 0.5984631152222222 0.5984631152222222</ambient_light>
+        <background_color>0.8984631152222222 0.8984631152222222 0.8984631152222222</background_color>
+        <camera_pose>-6 0 6 0 0.5 0</camera_pose>
+      </plugin>
+      <plugin name='World control' filename='WorldControl'>
+        <gz-gui>
+          <title>World control</title>
+          <property type='bool' key='showTitleBar'>0</property>
+          <property type='bool' key='resizable'>0</property>
+          <property type='double' key='height'>72</property>
+          <property type='double' key='width'>121</property>
+          <property type='double' key='z'>1</property>
+          <property type='string' key='state'>floating</property>
+          <anchors target='3D View'>
+            <line own='left' target='left'/>
+            <line own='bottom' target='bottom'/>
+          </anchors>
+        </gz-gui>
+        <play_pause>1</play_pause>
+        <step>1</step>
+        <start_paused>1</start_paused>
+      </plugin>
+      <plugin name='World stats' filename='WorldStats'>
+        <gz-gui>
+          <title>World stats</title>
+          <property type='bool' key='showTitleBar'>0</property>
+          <property type='bool' key='resizable'>0</property>
+          <property type='double' key='height'>110</property>
+          <property type='double' key='width'>290</property>
+          <property type='double' key='z'>1</property>
+          <property type='string' key='state'>floating</property>
+          <anchors target='3D View'>
+            <line own='right' target='right'/>
+            <line own='bottom' target='bottom'/>
+          </anchors>
+        </gz-gui>
+        <sim_time>1</sim_time>
+        <real_time>1</real_time>
+        <real_time_factor>1</real_time_factor>
+        <iterations>1</iterations>
+      </plugin>
+    </gui>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>6.0000000000000002e-06 2.3e-05 -4.1999999999999998e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>39.79480109851339</latitude_deg>
+      <longitude_deg>-84.08631702793322</longitude_deg>
+      <elevation>265.2</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <scene>
+      <grid>false</grid>
+    </scene>
+
+	<include>
+		<uri>models://Raceway_1</uri>
+		<name>track</name>
+		<pose>0 2.245 0 0 0 1.55</pose>
+	</include>
+	<include>
+		<uri>models://finish_line</uri>
+		<name>finish</name>
+		<pose>-5.624240 -1.994640 0.007000 0 0 -0.200000</pose>
+	</include>
+	<include>
+		<uri>models://stop_sign</uri>
+		<name>stop_sign</name>
+		<pose>-5.1 -2.04 0.147000 0 0 -0.200000</pose>
+	</include>
+	<include>
+		<uri>models://start_sign</uri>
+		<name>start</name>
+		<pose>-4.252800 -1.737550 0.147000 0 0 -2.200000</pose>
+	</include>
+	<include>
+		<uri>models://start_point</uri>
+		<name>start_point_1</name>
+		<pose>-4.552800 -1.566710 0.100000 0 0 -1.700000</pose>
+	</include>
+	<include>
+		<uri>models://start_point</uri>
+		<name>start_point_2</name>
+		<pose>-4.552800 -2.676710 0.100000 0 0 -1.700000</pose>
+	</include>
+	<include>
+		<uri>models://barricade</uri>
+		<name>barricade_1</name>
+		<pose>5.79 3.513550 0.081000 0 -0.100000 -0.300000</pose>
+	</include>
+	<include>
+		<uri>models://barricade</uri>
+		<name>barricade_3</name>
+		<pose>4.490680 3.013550 0.081000 0 -0.100000 -0.300000</pose>
+	</include>
+	<include>
+		<uri>models://barricade</uri>
+		<name>barricade_6</name>
+		<pose>5.29 2.082410 0.081000 0 -0.100000 -0.300000</pose>
+	</include>
+	<include>
+		<uri>models://barricade</uri>
+		<name>barricade_7</name>
+		<pose>3.913470 1.539040 0.081000 0 -0.100000 -0.300000</pose>
+	</include>
+	<include>
+		<uri>models://barricade</uri>
+		<name>barricade_8</name>
+		<pose>5.357740 5.817030 0.081000 0 -0.100000 -0.300000</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_1</name>
+		<pose>6.376210 -6.898060 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_6</name>
+		<pose>6.168280 -7.507190 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_9</name>
+		<pose>6.945680 -7.310310 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_11</name>
+		<pose>6.779940 -7.667300 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_15</name>
+		<pose>6.349080 -8.039790 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_16</name>
+		<pose>3.658030 -1.065570 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Coke</uri>
+		<name>can_17</name>
+		<pose>6.254270 6.582090 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://car_blue</uri>
+		<name>car_3</name>
+		<pose>2.485170 -5.649850 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://oak_tree_mini</uri>
+		<name>tree_1</name>
+		<pose>-0.761457 7.139250 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://oak_tree_mini</uri>
+		<name>tree_3</name>
+		<pose>-1.362430 7.320510 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://oak_tree_mini</uri>
+		<name>tree_6</name>
+		<pose>-0.858646 8.236420 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://hatchback_red</uri>
+		<name>car_5</name>
+		<pose>2.778630 3.582720 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://car_blue</uri>
+		<name>car_6</name>
+		<pose>2.461530 6.356750 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://hatchback_red</uri>
+		<name>car_7</name>
+		<pose>3.127710 4.690750 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://hatchback_red</uri>
+		<name>car_9</name>
+		<pose>3.538780 7.775480 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Construction_Cone_mini</uri>
+		<name>cone_2</name>
+		<pose>-13.753100 9.632810 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Construction_Cone_mini</uri>
+		<name>cone_3</name>
+		<pose>-13.102600 9.781960 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Construction_Cone_mini</uri>
+		<name>cone_4</name>
+		<pose>-13.508300 10.182100 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Construction_Cone_mini</uri>
+		<name>cone_6</name>
+		<pose>-12.390000 10.460300 0 0 0 0</pose>
+	</include>
+	<include>
+		<uri>models://Construction_Cone_mini</uri>
+		<name>cone_7</name>
+		<pose>-11.656000 10.228900 0 0 0 0</pose>
+	</include>
+	</world>
+</sdf>
