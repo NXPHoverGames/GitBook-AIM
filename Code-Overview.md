@@ -9,9 +9,9 @@
 - This software can run on the Gazebo simulator and on NXP's NAVQ+ board.
 - This directory will be present at the location - ~/cognipilot/cranium/src_. 
 - This is the only folder that participants will need to modify and submit for the regional finale.
-- This project contains following three python scripts for a line follower application -
+- This project contains following three python scripts for a line follower application.
 
-## b3rb_ros_edge_vectors
+This project contains three python scripts which provide a framework for a line follower application.
 - <span style="background-color: #FFC0CB; font-weight:bold">b3rb_ros_edge_vectors</span>: It creates vectors on the edges of the road in front of the rover.
   - The image captured from the front camera is used for detecting edges of the road.
   - Cases based on number of vectors created:
@@ -23,12 +23,10 @@
   - The vectors are published to the topic "/edge_vectors".
     - Message type: "~/cognipilot/cranium/src/synapse_msgs/msg/EdgeVectors.msg".
   - We assume the part of road that is very close to the rover is relevant for decision making.
-    - Hence, only the bottom 30% of the image is analyzed for edges of the road.
+    - Hence, only the bottom 40% of the image is analyzed for edges of the road.
       - This threshold could be modified by changing the value of lower_image_height.
-    - Hence, the y-coordinates of the vectors ∈ [30% of image height, image height].
+    - Hence, the y-coordinates of the vectors ∈ [40% of image height, image height].
   - Please feel free to modify this file if you feel that would improve the vector creation.
- 
-## b3rb_ros_line_follower
 - <span style="background-color: #FFC0CB; font-weight:bold"> b3rb_ros_line_follower</span>: Contains framework for running the rover using edge vectors.
   - Write your code in the "edge_vectors_callback" function for line follower application.
     - This callback is called whenever a new set of vectors are published on "/edge_vectors".
@@ -37,16 +35,9 @@
     - This callback is called whenever a new set of data is published on "/scan".
   - Please note that this file contains a generic implementation of line follower functionality.
     - You are allowed to modify or implement a different method to improve performance.
-   
-## b3rb_ros_object_recog
 - <span style="background-color: #FFC0CB; font-weight:bold"> b3rb_ros_object_recog</span>: Contains framework for recognizing objects on the track.
   - Write your code in the "camera_image_callback" function.
 
-## Important Note
-
-{% hint style="warning" %}The limit for car linear movement _**(speed)**_ is in range **-1 to +100**.
-The limit for car angular movement _**(steer)**_ is in range **-1 to +1**.
-{% endhint %}
 
 # Communication between ROS-2 nodes
 
