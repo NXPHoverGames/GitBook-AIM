@@ -23,7 +23,7 @@ Sample world json file
 
 ## Opttion-2
 
-Download the following file and copy paste it content in _**Raceway_1.sdf**_ file present in  _**~/cognipilot/cranium/src/dream_world/worlds **_ directory. 
+Download the following file and copy paste it content in _**Raceway_1.sdf**_ file present in  _**~/cognipilot/cranium/src/dream_world/worlds**_  directory. 
 
 {% file src=".gitbook/assets/AIM_2024/Raceway_1_sample.sdf" %}
 Sample world sdf file
