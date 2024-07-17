@@ -3,9 +3,11 @@
 ## Get all models to be used in Regional Finale
 Below zip file contains all the gazebo models to be used in Regional Finale:
 
-{% file src=".gitbook/assets/AIM_2024/obstacles.zip" %}
-Gazebo obstacles
+{% file src=".gitbook/assets/AIM_2024/models_w_collision_sensor.zip" %}
+Gazebo obstacles (updated)
 {% endfile %}
+
+{% hint style="danger" %}Please make sure you have latest obstacles, which are uploaded on 17th July,2024 (2 PM IST) {% endhint %}
 
 Download and extract the obstacles in the following folder: _**~/cognipilot/cranium/src/dream_world/models**_
 
