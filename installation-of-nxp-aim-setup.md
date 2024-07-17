@@ -234,7 +234,7 @@ Now wait for some time till the commands ran successfully message pops up:
 
 https://396338415-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FU93yDWZcgjXGgsC1Duqv%2Fuploads%2FlOvM24532lSgdGTQmH49%2Fupdate_repos_native.sh?alt=media&token=dce08eda-26f1-440e-8ca7-cf8ac297b1d4
 
-2. Rename the file as: __**update_repos_native.sh**_
+2. Rename the file as: _**update_repos_native.sh**_
 3. Save the file in the following directory: __**~/cognipilot/**_
 4. Run the following commands in a new terminal
 
