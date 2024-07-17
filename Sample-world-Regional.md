@@ -31,3 +31,13 @@ Sample world sdf file
 
 After that you need to follow the steps mentioned on Running of AIM 2024 software stack and Updating Code Base for AIM 2024  gitbook pages
 
+## Output
+
+After following the above steps, the Simulation world should look like this:
+
+![](<.gitbook/assets/AIM_2024/sample_world_0.png>)
+
+![](<.gitbook/assets/AIM_2024/sample_world_1.png>)
+
+![](<.gitbook/assets/AIM_2024/sample_world_2.png>)
+
