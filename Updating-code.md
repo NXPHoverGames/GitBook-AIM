@@ -1,7 +1,7 @@
 # Updating b3rb_ros_line_follower & dream_world
 
 ![](<.gitbook/assets/AIM_2024/update_dir.png>)
-When ever you update the files/content of __**b3rb_ros_line_follower & dream_world**_ present in __~/cognipilot/cranium/src_, the following commands to build
+When ever you update the files/content of _**b3rb_ros_line_follower & dream_world**_ present in _~/cognipilot/cranium/src_, the following commands to build
 the changes:
 
 ```
