@@ -3,6 +3,8 @@
 
 {% hint style="info" %} _**~/congnipilot/cranium/src/b3rb_ros_line_follower**_ is the only folder that the participants have to modify an submit for the Regional Finale{% endhint %}
 
+![](<.gitbook/assets/AIM_2024/update_dir.png>)
+
 - The **Line Follower** software is a ROS based application which leverages NXP's autopilot project called **Cognipilot**.
 - This software can run on the Gazebo simulator and on NXP's NAVQ+ board.
 - This directory will be present at the location - ~/cognipilot/cranium/src_. 
