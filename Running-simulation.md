@@ -12,9 +12,11 @@ $ ros2 launch b3rb_gz_bringup sil.launch.py world:=Raceway_1
 
 Running this will launch the gazebo simulation and Xterm window as follows:
 
-![](<.gitbook/assets/AIM_2024/gazebo_up_1.png>)
+![](<.gitbook/assets/AIM_2024/sample_world_0.png>)
 
-![](<.gitbook/assets/AIM_2024/running sim.png>)
+![](<.gitbook/assets/AIM_2024/sample_world_1.png>)
+
+![](<.gitbook/assets/AIM_2024/sample_world_2.png>)
 
 On a different terminal run the following code:
 
