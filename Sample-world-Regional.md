@@ -18,7 +18,7 @@ $ cd ~/cognipilot/cranium/AIM_2024_launcher
 $ python launch_sim.py start
 ```
 
-{% file src=".gitbook/assets/AIM_2024/models_config_track_only.json" %}
+{% file src=".gitbook/assets/AIM_2024/models_config_only_tack.json" %}
 Sample world without obstacles json file
 {% endfile %}
 
@@ -26,7 +26,7 @@ Sample world without obstacles json file
 
 Download the following file and copy paste it content in _**Raceway_1.sdf**_ file present in  _**~/cognipilot/cranium/src/dream_world/worlds**_  directory. 
 
-{% file src=".gitbook/assets/AIM_2024/Raceway__sample.sdf" %}
+{% file src=".gitbook/assets/AIM_2024/Raceway_1_only_track.sdf" %}
 Sample world without obstacles sdf file
 {% endfile %}
 
@@ -35,6 +35,10 @@ After that you need to follow the steps mentioned on Running of AIM 2024 softwar
 ### Output
 
 After following the above steps, the Simulation world should look like this:
+
+![](<.gitbook/assets/AIM_2024/only_track_1.png>)
+
+![](<.gitbook/assets/AIM_2024/only_track_2.png>)
 
 
 ## Sample world (with obstacles)
