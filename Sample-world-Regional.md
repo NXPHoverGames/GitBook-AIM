@@ -93,7 +93,7 @@ All teams are advised to finish the above sample world before proceeding further
 
 This is a very advance  practice simulation world whcich covers majority of edge and tricky use cases.Particpants can use this world to further enhance their logic after they have succesfully completed a lap on sample world provided in previous section.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 This is just a sample world, it's extremly tough and very hard to achieve as it covers majority of edge and tricky use cases for car to move. All teams are recommended to **primarly focus on sample world given above this advance sample world to prepare for regional finale**.  
 {% endhint %}
 
