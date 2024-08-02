@@ -10,7 +10,6 @@ description: >-
 
 This software can run on the B3RB and Gazebo Simulator.
 
-1. [NXP MR-B3RB](https://nxp.gitbook.io/mr-b3rb): The actual hardware rover made by NXP.
 2. [Gazebo Simulator](https://gazebosim.org/home): Development and testing environment used for B3RB.
    * It's used to simulate the B3RB with it's various sensors and capabilities.
    * It's used to simulate the track with it's various challenges and obstacles.
