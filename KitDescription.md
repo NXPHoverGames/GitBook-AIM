@@ -1,6 +1,7 @@
 # NXP AIM HARDWARE BUGGY 
 
 The NXP AIM Kit consists of following items:
+
     1. MR-B3RB-BMF
     2. NavQPlus incl. Camera
     3. MR-CANHUBK344
