@@ -30,13 +30,14 @@ NXP AIM kit: DOs and Don'ts
 
 ## Assembled NXP AIM Buggy Pics
 
-![](.gitbook/assets/AIM_2024/Image_assembly1.png)
+![](.gitbook/assets/AIM_2024/Image_assembly1.jfif)
 
-![](.gitbook/assets/AIM_2024/Image_assembly2.png)
+![](.gitbook/assets/AIM_2024/Image_assembly2.jfif)
 
-![](.gitbook/assets/AIM_2024/Image_assembly3.png)
+![](.gitbook/assets/AIM_2024/Image_assembly3.jfif)
 
-![](.gitbook/assets/AIM_2024/Image_assembly4.png)
+![](.gitbook/assets/AIM_2024/Image_assembly4.jfif)
 
-![](.gitbook/assets/AIM_2024/Image_assembly5.png)
-![](.gitbook/assets/AIM_2024/Image_assembly6.png)
+![](.gitbook/assets/AIM_2024/Image_assembly5.jfif)
+
+![](.gitbook/assets/AIM_2024/Image_assembly6.jfif)
