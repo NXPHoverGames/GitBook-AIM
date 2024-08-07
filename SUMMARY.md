@@ -9,3 +9,5 @@
 * [Code Overview for AIM 2024 software stack](Code-Overview.md)
 * [Sample World for Regional Finale](Sample-world-Regional.md)
 * [Debugging with Foxglove](Debugging-with-Foxglove.md)
+* [NXP AIM Kit Assembly Steps](BuggyAssembly.md)
+* [NXP AIM Kit Assembly Support Videos](Videos.md)
