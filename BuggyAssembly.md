@@ -1,5 +1,7 @@
 # Assembly
 
+{% hint style="danger" %}Please ignore the steps related to GPS and other items not included in AIM kit {% endhint %}
+
 ## Preparing Lower Chassis
 
 | Step.No. | Step Name                         | Description                                                                                                                                                                                                                           | Link                                                                                                                                                                                      |
@@ -46,11 +48,14 @@ We will now mount the NavQPlus and The MR-CANHUBK344 to the metal top plate.
 ## Final Steps
 After connecting all the cables, proceed to attach the metal board frame to the robot car using the screws you removed at the beginning
 
+{% hint style="danger" %} Please make sure the antena on NavQ+ board is outside of the metal covering to be covered in last step of assembly {% endhint %}
+
 | Step.No. | Step Name                         | Description                                                                                                                                                                                                                           | Link                                                                                                                                                                                      |
 |----------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 |  Front Plastic Shield with Mount for Camera | Attach the plastic shield with the camera housing to the robot's front using 1cm M2.5 screws |https://nxp.gitbook.io/mr-b3rb/mr-b3rb-m-pre-production-mechanical-assembly-guide/step-4-final-steps#front-plastic-shield-with-mount-for-camera|
 | 2 | Back Plastic Shield | Attach the back plastic shield of the robot |https://nxp.gitbook.io/mr-b3rb/mr-b3rb-m-pre-production-mechanical-assembly-guide/step-4-final-steps#back-plastic-shield|
 | 3 | Wiring MR-CANHUBK344 | Wiring connections related to MR-CANHUBK344(ignore GPS section) | https://nxp.gitbook.io/mr-b3rb/mr-b3rb-m-pre-production-mechanical-assembly-guide/step-3-wiring/backup-copy-of-step-3a-wiring-mr-canhubk344 |
 | 4 | Lidar mounted to metal LIDAR Arch | Attach the LIDAR to the LIDAR Arch |https://nxp.gitbook.io/mr-b3rb/mr-b3rb-m-pre-production-mechanical-assembly-guide/step-4-final-steps/copy-of-step-4-last-steps-lidar-arch-update#prepare-lidar-mounted-to-metal-lidar-arch|
+| 5 | Assembly of buggy top covering |Refer to video on link to proceed attaching the upper plating needed for covering the buggy | https://nxp.gitbook.io/mr-b3rb/mr-b3rb-bmf-out-of-box-assembly-guide#mr-b3rb-bmf-out-of-box-assembly-video |
 
 
