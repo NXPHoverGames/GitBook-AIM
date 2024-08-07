@@ -14,9 +14,29 @@ The NXP AIM Kit consists of following items:
     
 ## Block Diagram
 
+![](.gitbook/assets/AIM_2024/block_diagram.png)
 
 ## List of Part List
 
+{% file src=".gitbook/assets/AIM_2024/NXP AIM  Kit Conetnt.pdf" %}
+Part Number: NXP AIM kit
+{% endfile %}
 
 ## Dos And Don'ts of Buggy
 
+{% file src=".gitbook/assets/AIM_2024/NXP AIM  Dos and Donts.pdf" %}
+NXP AIM kit: DOs and Don'ts
+{% endfile %}
+
+## Assembled NXP AIM Buggy Pics
+
+![](.gitbook/assets/AIM_2024/Image_assembly1.png)
+
+![](.gitbook/assets/AIM_2024/Image_assembly2.png)
+
+![](.gitbook/assets/AIM_2024/Image_assembly3.png)
+
+![](.gitbook/assets/AIM_2024/Image_assembly4.png)
+
+![](.gitbook/assets/AIM_2024/Image_assembly5.png)
+![](.gitbook/assets/AIM_2024/Image_assembly6.png)
