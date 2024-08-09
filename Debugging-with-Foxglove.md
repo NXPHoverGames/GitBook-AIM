@@ -21,10 +21,10 @@ After you have completed the initial setup for CogniPilot on a native ubuntu mac
     	- cd ~/cognipilot/cranium
     	- colcon build
     	- source install/setup.bash
-    - Add the same topic name "/debug_images/vector_image" to the default_value of topic_whitelist in electrode/src/electrode/launch/electrode.launch.py as shown in the attached image.
+    - Append the same topic name "/debug_images/vector_image" to the default_value of topic_whitelist in electrode/src/electrode/launch/electrode.launch.py as shown in the attached image.
     - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/GetImage_2.png)
-    - **When working with hardware buggy** add the same topic name "/debug_images/vector_image" to the default_value of topic_whitelist in b3rb_robot/b3rb_bringup/launch/robot.launch.py as shown in the attached image.
-    - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/topic_whitelist.png)
+    - **When working with hardware buggy** append the same topic name "/debug_images/vector_image" to the default_value of topic_whitelist in b3rb_robot/b3rb_bringup/launch/robot.launch.py. The snippet of this argument is attached in the image below.
+      - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/topic_whitelist.png)
       - Open a new terminal and run the following commands.
         - cd ~/cognipilot/cranium
         - colcon build
@@ -34,10 +34,10 @@ After you have completed the initial setup for CogniPilot on a native ubuntu mac
     	- colcon build
     	- source install/setup.bash
 2. LIDAR Data:
-    - Add "/scan" to the default_value of topic_whitelist in electrode/src/electrode/launch/electrode.launch.py as shown in the attached image.
+    - Append "/scan" to the default_value of topic_whitelist in electrode/src/electrode/launch/electrode.launch.py as shown in the attached image.
     - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/GetImage_3.png)
-    - **When working with hardware buggy** add "/scan" to the default_value of topic_whitelist in b3rb_robot/b3rb_bringup/launch/robot.launch.py as shown in the attached image.
-    - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/topic_whitelist.png)
+    - **When working with hardware buggy** append "/scan" to the default_value of topic_whitelist in b3rb_robot/b3rb_bringup/launch/robot.launch.py. The snippet of this argument is attached in the image below.
+      - ![alt text](.gitbook/assets/AIM_2024/debug_foxglove_guide/topic_whitelist.png)
       - Open a new terminal and run the following commands.
         - cd ~/cognipilot/cranium
         - colcon build
