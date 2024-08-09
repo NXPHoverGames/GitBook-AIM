@@ -12,3 +12,4 @@
 * [Introduction to NXP AIM HW Buggy kit](KitDescription.md)
 * [NXP AIM Kit Assembly Steps](BuggyAssembly.md)
 * [NXP AIM Kit Assembly Support Videos](Videos.md)
+* [Release Notes for Hardware Buggy](Release-Notes-for-Hardware-Buggy.md)
