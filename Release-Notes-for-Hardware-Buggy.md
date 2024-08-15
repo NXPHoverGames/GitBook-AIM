@@ -73,6 +73,11 @@ cd ~/cognipilot/cranium/src/synapse_msgs
 git checkout b3rb_ros_line_follower
 ```
 
+Open a terminal and follow the following steps to setup **Python Modules**.
+```
+pip install torch==2.3.0 torchvision==0.18.0
+```
+
 Open a terminal on NAVQ+  and follow the following steps for building **Cranium** and running **b3rb_bringup**.
 ```
 cd ~/cognipilot/cranium/
