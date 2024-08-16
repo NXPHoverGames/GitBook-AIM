@@ -1,5 +1,9 @@
 # NXP AIM Buggy Code Deploymnet
 
+{% hint style="danger" %} Please take backup of _**~/congnipilot/cranium/src/b3rb_ros_line_follower**_ as after completing the steps, a new branch will be pulled. Post installation, teams can start merging there code base using the infrastructure for hardware deployment. {% endhint %}
+
+{% hint style="info" %} _**~/congnipilot/cranium/src/b3rb_ros_line_follower**_ is the only folder that the participants have to modify{% endhint %}
+
 ## SETTING UP HARDWARE B3RB
 
 ### SETTING UP NAVQPLUS
