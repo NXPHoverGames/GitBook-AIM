@@ -1,4 +1,4 @@
-# Release Notes for Hardware Buggy
+# NXP AIM Buggy Code Deploymnet
 
 ## SETTING UP HARDWARE B3RB
 
