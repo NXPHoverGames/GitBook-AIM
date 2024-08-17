@@ -55,7 +55,7 @@ The YOLOv5 object recognition model is added in the Hardware Release in b3rb_ros
 - Buggy speed and steer should be set within the range [-1, +1] as mentioned in the docstring of the function "rover_move_manual_mode" in the node "b3rb_ros_line_follower".
   - It is advised that initial testing should be done with low speed such as 0.25 (to avoid any physical harm to the buggy), then gradually speed should be increased to improve time taken to complete the lap.
 
-## <span style="background-color: #FFFF00">EXECUTION STEPS</span>
+## <span style="background-color: #FFFF00">EXECUTION STEPS: Mandatory for first time portion of code on NXP AIM KIT</span>
 
 **NOTE: ALL STEPS IN THE FOLLOWING SECTIONS ARE SUPPOSED TO BE RUN ON NAVQPLUS.**
 
@@ -119,6 +119,27 @@ Open a terminal on NAVQ+ and follow the following steps for running **b3rb_ros_l
 source ~/cognipilot/cranium/install/setup.bash
 ros2 run b3rb_ros_line_follower runner
 ```
+
+## Updating code
+Follow the following steps to update your code in future on buggy:
+
+1. Connect to wifi
+2. Change b3rb_ros_line_follower folder
+3. Login to NVAQ+ terminal
+4. cd ~/cognipilot/cranium/
+5. colcon build
+6. source ~/cognipilot/cranium/install/setup.bash
+7. ros2 launch b3rb_bringup robot.launch.py
+8. New Terminal: 
+	1.source ~/cognipilot/cranium/install/setup.bash
+	2.ros2 run b3rb_ros_line_follower vectors
+9. New Terminal: 
+	1.source ~/cognipilot/cranium/install/setup.bash
+	2.ros2 run b3rb_ros_line_follower runner
+10. New Terminal: 
+	1.source ~/cognipilot/cranium/install/setup.bash
+	2.ros2 run b3rb_ros_line_follower detect
+
 
 ## <span style="background-color: #FFFF00">TROUBLESHOOTING</span>
 
