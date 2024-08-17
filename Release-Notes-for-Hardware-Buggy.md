@@ -60,8 +60,8 @@ The YOLOv5 object recognition model is added in the Hardware Release in b3rb_ros
 **NOTE: ALL STEPS IN THE FOLLOWING SECTIONS ARE SUPPOSED TO BE RUN ON NAVQPLUS.**
 
 ```
-git clone git@github.com:NXPHoverGames/NXP_AIM_INDIA_2024.git
-cd NXP_AIM_INDIA_2024
+git clone git@github.com:NXPHoverGames/NXP_AIM_INDIA_2024.git b3rb_ros_line_follower
+cd b3rb_ros_line_follower
 git checkout grand_finale
 ```
 Move "b3rb_ros_line_follower" to "~/cognipilot/cranium/src/".
