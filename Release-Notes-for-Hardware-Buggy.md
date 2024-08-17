@@ -66,6 +66,18 @@ git checkout grand_finale
 ```
 Move "b3rb_ros_line_follower" to "~/cognipilot/cranium/src/".
 
+Open a terminal and follow the following steps to setup **YOLOv5**.
+```
+git clone git@github.com:NXPHoverGames/B3RB_YOLO_OBJECT_RECOG.git
+```
+
+Perform the following steps for copying YOLOv5 model files to "cranium/src/b3rb_ros_line_follower".
+- Move "resource/coco.yaml" to "cranium/src/b3rb_ros_line_follower/resource/"
+- Move "resource/yolov5n-int8.tflite" to "cranium/src/b3rb_ros_line_follower/resource/"
+- Move "b3rb_ros_object_recog.py" to "cranium/src/b3rb_ros_line_follower/b3rb_ros_line_follower/"
+- cranium/src/b3rb_ros_line_follower/setup.py: uncomment line 12 and 13 (includes resources).
+
+  
 Open a terminal and follow the following steps to setup **Cranium**.
 ```
 cd ~/cognipilot/cranium/src/
