@@ -21,13 +21,9 @@ The teams can design there own physical tracks by using variety of materials. Tr
 
 The particpants are recommend to refer and design the tracks for their own practice for the final showdown in grand finale using NXP AIM kits, by refering to the below smaple track. 
 
-{% file src=".gitbook/assets/AIM_2024/sampletrack.jfif" %}
-Sample Track
-{% endfile %}
+![](<.gitbook/assets/AIM_2024/sampletrack.jfif>)
 
-{% file src=".gitbook/assets/AIM_2024/SampleTrack1_dim.png" %}
-Sample Track length and width
-{% endfile %}
+![](<.gitbook/assets/AIM_2024/.gitbook/assets/AIM_2024/SampleTrack1_dim.png>)
 
 {% file src=".gitbook/assets/AIM_2024/SampleTrack1.pdf" %}
 Sample Track length and width
