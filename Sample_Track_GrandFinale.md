@@ -52,4 +52,14 @@ For obstacle avoidance, teams can use any real world obstacles such which are de
 4. Pyramid shape obstacles
 5. Spherical obstacles (FootBall etc)
 
+## More Sample Track ideas
 
+The particpants can also refer to other track designs as well for preparing for the grand finale. 
+
+{% file src=".gitbook/assets/AIM_2024/NxpCupTrackConfig_1.pdf" %}
+Sample Track-2
+{% endfile %}
+
+{% file src=".gitbook/assets/AIM_2024/NxpCupTrackConfig_2.pdf" %}
+Sample Track-2
+{% endfile %}
