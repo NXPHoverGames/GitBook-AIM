@@ -23,7 +23,7 @@ The particpants are recommend to refer and design the tracks for their own pract
 
 ![](<.gitbook/assets/AIM_2024/sampletrack.jfif>)
 
-![](<.gitbook/assets/AIM_2024/.gitbook/assets/AIM_2024/SampleTrack1_dim.png>)
+![](<.gitbook/assets/AIM_2024/SampleTrack1_dim.png>)
 
 {% file src=".gitbook/assets/AIM_2024/SampleTrack1.pdf" %}
 Sample Track length and width
