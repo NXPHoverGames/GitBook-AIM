@@ -11,6 +11,10 @@ Track Parts details and sizes
 The teams can design there own physical tracks by refering to the dimension and design of various parts of the track that are given in the document.
 {% endhint %}
 
+{% hint style="warning" %}
+The teams can design there own physical tracks by using variety of materials. Try to experiment with different shine, texture nad material of surface to get best results for your algorithm.
+{% endhint %}
+
 ## Sample Track 
 
 ### Sample Track Dimensions and Design 
