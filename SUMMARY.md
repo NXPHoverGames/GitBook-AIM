@@ -14,3 +14,4 @@
 * [NXP AIM Kit Assembly Support Videos](Videos.md)
 * [Deployment of Code on NXP AIM Kit](Release-Notes-for-Hardware-Buggy.md)
 * [Create Your Own Physical Sample Track](Sample_Track_GrandFinale.md)
+* [Access Manual Mode of Buggy via Foxglove](Manual_mode.md)
