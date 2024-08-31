@@ -60,3 +60,7 @@ CONFIG_CEREBRI_SENSE_SAFETY=n
 
 **Step 5:**  Click on the joystick to move buggy on manual mode
 
+![](<.gitbook/assets/AIM_2024/butons_on_foxglove.png>)
+
+![](<.gitbook/assets/AIM_2024/manual_mode_activated.png>)
+
