@@ -29,6 +29,12 @@ The particpants are recommend to refer and design the tracks for their own pract
 Sample Track length and width
 {% endfile %}
 
+### CAD files for Sample Track
+
+{% file src=".gitbook/assets/AIM_2024/SAMPLE_TRACK_DESIGN_AUTOCAD.zip" %}
+Sample Track CAD files
+{% endfile %}
+
 ### Creating sample track scenarios
 
 Participants will be required to identify the traffic signs and obstacles and take correct decissions in the Grand Finale. 
