@@ -31,3 +31,32 @@ unzip cognipilot.cognipilot-joystick-*.zip
 
 **Step 8:** Once the connection is established, on the top right corner, there will be an 	option for layout, choose a custom layout and select the downloaded json file.
 
+## Update CANHUBK344 Firmware 
+Update CANHUBK344 firmware with safety disbabled.
+
+**Step 1:** Go to following file on setup: **_~/cognipilot/ws/cerebri/app/b3rb/prj.conf_**
+
+**Step 2:**  Update **_CONFIG_CEREBRI_SENSE_POWER_** on line 24 by replacing y with n:
+```
+CONFIG_CEREBRI_SENSE_POWER=n
+```
+
+**Step 3:**  Update **_CONFIG_CEREBRI_SENSE_SAFETY_** on line 25 by replacing y with n:
+```
+CONFIG_CEREBRI_SENSE_SAFETY=n
+```
+
+**Step 4:**  Rebuild the code for CANHUBK344 and deploy it on board using J-link debugger
+
+## Get  NXP AIM Buggy in Manual Mode
+
+**Step 1:** Conenct buggy and host laptop to same wifi network
+
+**Step 2:** Open the foxglove studio application on your device and connection option
+
+**Step 3:**  Click on Manual button on foxglove GUI
+
+**Step 4:**  Click on ARM button on foxglove GUI
+
+**Step 5:**  Click on the joystick to move buggy on manual mode
+
