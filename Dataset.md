@@ -6,7 +6,7 @@ In NXP AIM 2024, we will be working on following traffic signs:
 3. Turn Right Traffic Sign
 4. Stop Traffic sign
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Teams have to divide the dataset into train/validation/test sub-sets on their own.
 {% endhint %}
 
