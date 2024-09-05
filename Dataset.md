@@ -17,7 +17,7 @@ Teams can add more images to the data set as per their needs by refering to imag
 {% endhint %}
 
 {% file src=".gitbook/assets/AIM_2024/Signs_design.docx" %}
-Unlabbled data set
+Traffic Sign Designs and sizes
 {% endfile %}
 
 ## Unlabbled data set
