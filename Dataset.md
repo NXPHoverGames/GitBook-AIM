@@ -43,3 +43,14 @@ Labbled data set for OBB (Tensorflow)
 {% hint style="warning" %}
 Teams need to devide the images into train,val and test categories themselves and then create suiatble folders and edit this yaml file
 {% endhint %}
+
+## Labbled/bounded data set (Advance: multi class images)
+
+The below links contain file containing images with multiple  signs classes in a single image along with information about their labels and clases that can be used in training of ypur model are present here.
+
+Labbled data set for Pytorch - [Pytorch_Dataset_Multi_Class_Images](https://drive.google.com/file/d/1Pwdfj1s_jhs9N_B77LSnsnRJK8ORZWJm/view?usp=drive_link).
+
+
+{% hint style="warning" %}
+Teams need to devide the images into train,val and test categories themselves and then create suiatble folders and edit this yaml file
+{% endhint %}
