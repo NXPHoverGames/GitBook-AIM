@@ -50,7 +50,7 @@ The below links contain file containing images with multiple  signs classes in a
 
 Labbled data set for Pytorch - [Pytorch_Dataset_Multi_Class_Images](https://drive.google.com/file/d/1Pwdfj1s_jhs9N_B77LSnsnRJK8ORZWJm/view?usp=drive_link).
 
-Labbled data set for OBB (Tensorflow) - [OBB_Dataset_Multi_Class_Images](https://drive.google.com/file/d/1Pwdfj1s_jhs9N_B77LSnsnRJK8ORZWJm/view?usp=drive_link).
+Labbled data set for OBB (Tensorflow) - [OBB_Dataset_Multi_Class_Images](https://drive.google.com/file/d/1JbPie3vatNqR2R2F6WIC3U8Yc5u3qaJA/view?usp=drive_link).
 
 {% hint style="warning" %}
 Teams need to devide the images into train,val and test categories themselves and then create suiatble folders and edit this yaml file
