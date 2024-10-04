@@ -20,4 +20,6 @@
       - export CYCLONEDDS_URI=/home/$USER/CycloneDDSConfig.xml
       - (Then, restart NavQPlus.)
 
+  {% hint style="info" %} After above steps make sure to re-build using colcon build followed by source. {% endhint %}
+    
   {% hint style="danger" %} Participants should not change cranium nodes other than the ones in ~/cognipilot/cranium/src/b3rb_ros_line_follower and ~/cognipilot/cranium/src/synapse_msgs. {% endhint %}
