@@ -1,5 +1,7 @@
 ### NXP AIM GRAND FINALE EVALUATION SETUP
 
+  {% hint style="danger" %} Participanting teams that are will do the following changes will automatically be eliminated from the competition. {% endhint %}
+  
 - <span style="background-color: #FFC0CB; font-weight:bold"> For the evaluation of NXP AIM 2024 Grand Finale, following are the requirements from the participants -</span>
   - **REQUIREMENTS (TO BE PERFORMED ON THE NAVQPLUS)**
     - Ensure the ROS2 version is HUMBLE. (Command for checking: "echo $ROS_DISTRO".)
@@ -17,4 +19,5 @@
       - export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
       - export CYCLONEDDS_URI=/home/$USER/CycloneDDSConfig.xml
       - (Then, restart NavQPlus.)
-    - Participants should not change cranium nodes other than the ones in ~/cognipilot/cranium/src/b3rb_ros_line_follower and ~/cognipilot/cranium/src/synapse_msgs.
+
+  {% hint style="danger" %} Participants should not change cranium nodes other than the ones in ~/cognipilot/cranium/src/b3rb_ros_line_follower and ~/cognipilot/cranium/src/synapse_msgs. {% endhint %}
