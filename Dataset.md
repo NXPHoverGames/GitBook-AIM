@@ -22,7 +22,7 @@ Traffic Sign Designs and sizes
 
 ## Unlabbled data set
 
-The below file conatins all the images that can be used in training of ypur model are present here.
+The below file conatins all the images that can be used in training of your model are present here.
 
 {% file src=".gitbook/assets/AIM_2024/traffic_sign_dataset_unlabbled.zip" %}
 Unlabbled data set
@@ -55,3 +55,17 @@ Labbled data set for OBB (Tensorflow) - [OBB_Dataset_Multi_Class_Images](https:/
 {% hint style="warning" %}
 Teams need to devide the images into train,val and test categories themselves and then create suiatble folders and edit this yaml file
 {% endhint %}
+
+
+## Unlabbled data set
+
+The below links conatins all the images that can be used in training of your model to detect the Traffic Light to be used in AIM Grand finale.
+
+Unlabbled data set for red/green light - [Traffic_Light_Imahes](https://drive.google.com/file/d/1yABED6JG6RhJK6PuLO4kyX2o93KiAB4Y/view?usp=drive_link).
+
+
+{% hint style="warning" %}
+The link contains 1700+ red lights and 700+ green light images. We recommend all participants only to train model for red traffic light and consider it an extension of stop sign.
+{% endhint %}
+
+
