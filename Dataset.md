@@ -57,7 +57,7 @@ Teams need to devide the images into train,val and test categories themselves an
 {% endhint %}
 
 
-## Unlabbled data set
+## Unlabbled data set for Traffic Light
 
 The below links conatins all the images that can be used in training of your model to detect the Traffic Light to be used in AIM Grand finale.
 
